@@ -14,7 +14,7 @@ const Project = () => {
           <div className="row row-cols-1 row-cols-sm-12 row-cols-md-2 row-cols-lg-4 row-gap-3 mx-auto my-5">
             <div className="col ">
               <div className="card">
-                <img src={sample} className="card-img-top" alt="..." />
+                <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Project Name</h5>
                   <p className="card-text">
@@ -63,7 +63,7 @@ const Project = () => {
                             <div className="row g-0">
                               <div className="col-md-4">
                                 <img
-                                  src={sample}
+                                  src={kodego}
                                   className="img-fluid rounded-start"
                                   alt="..."
                                   style={{ width: "100%" }}
@@ -259,7 +259,7 @@ const Project = () => {
             </div>
             <div className="col ">
               <div className="card">
-                <img src={sample} className="card-img-top" alt="..." />
+                <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Project Name</h5>
                   <p className="card-text">
@@ -308,7 +308,7 @@ const Project = () => {
                             <div className="row g-0">
                               <div className="col-md-4">
                                 <img
-                                  src={sample}
+                                  src={kodego}
                                   className="img-fluid rounded-start"
                                   alt="..."
                                   style={{ width: "100%" }}
@@ -504,7 +504,7 @@ const Project = () => {
             </div>
             <div className="col ">
               <div className="card">
-                <img src={sample} className="card-img-top" alt="..." />
+                <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Project Name</h5>
                   <p className="card-text">
@@ -553,7 +553,7 @@ const Project = () => {
                             <div className="row g-0">
                               <div className="col-md-4">
                                 <img
-                                  src={sample}
+                                  src={kodego}
                                   className="img-fluid rounded-start"
                                   alt="..."
                                   style={{ width: "100%" }}
@@ -749,7 +749,7 @@ const Project = () => {
             </div>
             <div className="col ">
               <div className="card">
-                <img src={sample} className="card-img-top" alt="..." />
+                <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">Project Name</h5>
                   <p className="card-text">
@@ -798,7 +798,7 @@ const Project = () => {
                             <div className="row g-0">
                               <div className="col-md-4">
                                 <img
-                                  src={sample}
+                                  src={kodego}
                                   className="img-fluid rounded-start"
                                   alt="..."
                                   style={{ width: "100%" }}
