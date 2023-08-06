@@ -1,0 +1,57 @@
+.first {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.gradpic {
+  width: 100%;
+
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  object-fit: contain;
+}
+.gradpic:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.college {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.4),
+      rgba(20, 20, 20, 0.4)
+    ),
+    url(../assets/college.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.kodego {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.4),
+      rgba(20, 20, 20, 0.4)
+    ),
+    url(../assets/bootcamp.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tesda {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.4),
+      rgba(20, 20, 20, 0.4)
+    ),
+    url(../assets/tesda2.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

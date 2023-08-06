@@ -1,0 +1,88 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import "../css/Contact.css";
+import avatar from "../assets/avatar.gif";
+
+const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_wfwm9nj",
+        "template_7qw7ghh",
+        form.current,
+        "9-FrRj1YMcGW4Ccg1"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  return (
+    <>
+      <div style={{ marginTop: "100px", marginBottom: "100px" }}>
+        <div className="row pt-5 my-5 mx-5 mx-auto contact">
+          <h1 className="text-center">I'd love to here from you</h1>
+          <div className="col-sm-12 col-md-6 info container p-3">
+            <h5 className="">Drop a message and let's have a little chat</h5>
+            <p>
+              For any sort of questions, feel free to send me an email or just
+              want to say hi, I'll try my best to get back to you!
+            </p>
+            <hr />
+            <h5>Personal Information</h5>
+
+            <li>
+              <i className="bi bi-envelope mx-3"></i>
+              <span>Dantecalcantarajr@gmail.com</span>
+            </li>
+            <li>
+              <i className="bi bi-telephone mx-3"></i>
+              <span>+63 9277336452</span>
+            </li>
+            <li>
+              <i className="bi bi-geo-alt mx-3"></i>
+              <span>Fairview Quezon City PH</span>
+            </li>
+          </div>
+          <div className="col-sm-12 col-md-6 mb-3">
+            <form
+              className="contactForm  p-1 mx-auto"
+              ref={form}
+              onSubmit={sendEmail}
+            >
+              <label>Name</label>
+              <input
+                className="inputContactform form-control"
+                type="text"
+                name="user_name"
+              />
+              <label className="">Email</label>
+              <input className="form-control" type="email" name="user_email" />
+              <label>Message</label>
+              <textarea
+                className="contactTextarea form-control"
+                name="message"
+              />
+              <input
+                className="btn btn-dark mt-2 w-100"
+                type="submit"
+                value="Send"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Contact;
