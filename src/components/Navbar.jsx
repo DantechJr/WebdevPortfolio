@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import Dog from "../assets/dog.gif";
+import Resume from "../assets/Dante(Resume).pdf";
 
 export const Navbar = () => {
   return (
@@ -47,12 +48,14 @@ export const Navbar = () => {
                   Contact
                 </Link>
               </li>
-              <button
+              <a
+                href={Resume}
                 className="btn btn-outline-dark"
                 style={{ width: "150px" }}
+                download="Resume"
               >
                 Download CV
-              </button>
+              </a>
             </ul>
           </div>
         </div>
