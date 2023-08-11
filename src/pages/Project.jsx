@@ -8,18 +8,19 @@ import "../css/Project.css";
 const Project = () => {
   return (
     <>
-      <div className="container-fluid mainContainer py-5">
+      <div className="container-fluid mainContainer py-3">
         <h1 className="text-center pt-5">Project Gallery</h1>
         <div className="container-fluid">
           <div className="row row-cols-1 row-cols-sm-12 row-cols-md-2 row-cols-lg-4 row-gap-3 mx-auto my-5">
+            {/* first card my portfolio */}
             <div className="col ">
               <div className="card">
                 <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Project Name</h5>
+                  <h5 className="card-title">My Portfolio</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    This is my Wed Development Portfolio. You can see some of my
+                    personal achievements and development projects.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button
@@ -257,14 +258,15 @@ const Project = () => {
                 </div>
               </div>
             </div>
+            {/* 2nd card wordpress project */}
             <div className="col ">
               <div className="card">
                 <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Project Name</h5>
+                  <h5 className="card-title">Wordpress Project</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    This project is the output of my college capstone system
+                    together with my classmates.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button
@@ -502,14 +504,15 @@ const Project = () => {
                 </div>
               </div>
             </div>
+            {/* 3rd card kodego capstone project */}
             <div className="col ">
               <div className="card">
                 <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Project Name</h5>
+                  <h5 className="card-title">Kodego Capstone</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    This is the final output of my experience in kodego. It is a
+                    collaboration project together with my co-bootcampers.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button
@@ -747,14 +750,15 @@ const Project = () => {
                 </div>
               </div>
             </div>
+            {/* 4th card kodego mini projects */}
             <div className="col ">
               <div className="card">
                 <img src={kodego} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h5 className="card-title">Project Name</h5>
+                  <h5 className="card-title">Kodego mini projects</h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    In here you view a compilation of my mini projects in kodego
+                    bootcamp as a full-stack web dev.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button

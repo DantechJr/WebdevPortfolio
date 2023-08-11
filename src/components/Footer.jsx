@@ -14,17 +14,19 @@ const Footer = () => {
             style={{ width: "100px" }}
           >
             <li className="ms-3">
-              <a className="text-body-secondary" href="#">
+              <a
+                className="text-body-secondary"
+                href="https://github.com/DantechJr?tab=repositories"
+              >
                 <i className="bi bi-github" width="24" height="24"></i>
               </a>
             </li>
+
             <li className="ms-3">
-              <a className="text-body-secondary" href="#">
-                <i className="bi bi-google" width="24" height="24"></i>
-              </a>
-            </li>
-            <li className="ms-3">
-              <a className="text-body-secondary" href="#">
+              <a
+                className="text-body-secondary"
+                href="https://www.linkedin.com/in/dante-alcantara-jr-a41bb6253/"
+              >
                 <i className="bi bi-linkedin" width="24" height="24"></i>
               </a>
             </li>

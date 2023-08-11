@@ -2,18 +2,23 @@ import React from "react";
 import "../css/About.css";
 import Gradpic from "../assets/college/gradpic.jpg";
 import kodego from "../assets/kodegologo.png";
+import kodegoPic1 from "../assets/kodego/kodegoPic1.png";
+import kodegoPic2 from "../assets/kodego/kodegoPic2.png";
 import tesda from "../assets/tesda.png";
+import tesdaPic from "../assets/tesda/tesdaPic1.jpg";
+import tesdaPic2 from "../assets/tesda/tesdaPic2.jpg";
 import accessLogo from "../assets/college/accessLogo.png";
 import caseCover from "../assets/college/capstoneCaseCover.jpg";
 import groupPic from "../assets/college/groupPic.png";
 import capstonePassed from "../assets/college/capstonePassed.jpg";
+import capstoneCD from "../assets/college/capstoneCD.jpg";
 
 const About = () => {
   return (
     <>
       <div>
         {/* college */}
-        <div className="container-fluid college border my-3">
+        <div className="container-fluid college border mb-3">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
             <div className="col-sm-12  img-fluid col-md-4">
               <img
@@ -69,6 +74,7 @@ const About = () => {
                 <div
                   id="carouselExampleCaptions"
                   className="carousel slide mx-auto my-2"
+                  data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
                     {/* 1st carousel */}
@@ -93,10 +99,10 @@ const About = () => {
                     <div className="carousel-item">
                       <img
                         src={groupPic}
-                        className="d-block mx-auto"
+                        className="d-block mx-auto w-100"
                         alt="..."
                         style={{
-                          objectFit: "contain",
+                          objectFit: "cover",
                           width: "300px",
                           height: "300px",
                         }}
@@ -116,9 +122,9 @@ const About = () => {
                         className="d-block w-100"
                         alt="..."
                         style={{
-                          objectFit: "contain",
-                          width: "300px",
-                          height: "300px",
+                          objectFit: "fill",
+
+                          height: "330px",
                         }}
                       />
                       <div className="carousel-caption d-none d-md-block">
@@ -137,8 +143,27 @@ const About = () => {
                         alt="..."
                         style={{
                           objectFit: "contain",
-                          width: "300px",
-                          height: "300px",
+
+                          height: "350px",
+                        }}
+                      />
+                      <div className="carousel-caption d-none d-md-block">
+                        {/* <h5>Third slide label</h5>
+                      <p>
+                        Some representative placeholder content for the third
+                        slide.
+                      </p> */}
+                      </div>
+                    </div>
+                    {/* 5th carousel */}
+                    <div className="carousel-item">
+                      <img
+                        src={capstoneCD}
+                        className="d-block w-100"
+                        alt="..."
+                        style={{
+                          objectFit: "contain",
+                          height: "350px",
                         }}
                       />
                       <div className="carousel-caption d-none d-md-block">
@@ -228,6 +253,7 @@ const About = () => {
                 <div
                   id="carouselCaptions2"
                   className="carousel slide mx-auto my-2"
+                  data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
                     {/* 1st carousel */}
@@ -249,13 +275,13 @@ const About = () => {
                     {/* 2nd carousel */}
                     <div className="carousel-item">
                       <img
-                        src={kodego}
-                        className="d-block mx-auto"
+                        src={kodegoPic1}
+                        className="d-block mx-auto w-100"
                         alt="..."
                         style={{
-                          objectFit: "contain",
-                          width: "150px",
-                          height: "150px",
+                          objectFit: "cover",
+
+                          height: "300px",
                         }}
                       />
                       <div className="carousel-caption d-none d-md-block">
@@ -269,13 +295,13 @@ const About = () => {
                     {/* 3rd carousel */}
                     <div className="carousel-item">
                       <img
-                        src={kodego}
+                        src={kodegoPic2}
                         className="d-block w-100"
                         alt="..."
                         style={{
-                          objectFit: "contain",
-                          width: "150px",
-                          height: "150px",
+                          objectFit: "cover",
+
+                          height: "300px",
                         }}
                       />
                       <div className="carousel-caption d-none d-md-block">
@@ -318,7 +344,7 @@ const About = () => {
         </div>
 
         {/* Tesda */}
-        <div className="container-fluid tesda border my-3">
+        <div className="container-fluid tesda border mt-3">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
             <div className="colsm-12 col-md-4">
               <img
@@ -333,11 +359,28 @@ const About = () => {
               <h1 className="text-center my-3">TESDA NCII</h1>
               <section>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident, iure! Magnam quod reiciendis nostrum libero
-                  assumenda earum itaque autem, tenetur voluptatum. Officia,
-                  laboriosam illo ratione aut aperiam reprehenderit accusantium
-                  praesentium?
+                  <b> Computer Systems Servicing NC II</b> is one of the courses
+                  offered by the Technical Education and Skills Development
+                  Authority (TESDA). To be able to acquire the certificate, one
+                  must possess the skills and knowledge necessary to install and
+                  configure computers, set up computer networks and servers, and
+                  maintain and repair computer systems and networks.
+                </p>
+                <p>
+                  Computer servicing is the process of maintaining and repairing
+                  computers and computer peripherals. It can involve anything
+                  from malware removal and software updates to hardware repairs
+                  and troubleshooting.
+                </p>
+                <p>
+                  The assessment ran for about four hours or so. and it was held
+                  at one of the campuses of our school in Pasay City. The
+                  assessment was facilitated by a professional licensed
+                  instructor from TESDA. Luckily for me, I was able to
+                  <b> pass</b> the computer system servicing exam;
+                  unfortunately, there are some who didn't. All in all, it was a
+                  <b> great experience</b> and a fulfilling achievement for me,
+                  even though it was a nerve-wracking experience to begin with.
                 </p>
               </section>
               {/* kodego carousel */}
@@ -345,6 +388,7 @@ const About = () => {
                 <div
                   id="carouselCaptions3"
                   className="carousel slide mx-auto my-2"
+                  data-bs-ride="carousel"
                 >
                   <div className="carousel-inner">
                     {/* 1st carousel */}
@@ -354,8 +398,8 @@ const About = () => {
                         className="d-block mx-auto"
                         alt="..."
                         style={{
-                          objectFit: "contain",
-                          width: "150px",
+                          objectFit: "cover",
+
                           height: "150px",
                         }}
                       />
@@ -366,13 +410,13 @@ const About = () => {
                     {/* 2nd carousel */}
                     <div className="carousel-item">
                       <img
-                        src={tesda}
-                        className="d-block mx-auto"
+                        src={tesdaPic}
+                        className="d-block mx-auto w-50"
                         alt="..."
                         style={{
-                          objectFit: "contain",
-                          width: "150px",
-                          height: "150px",
+                          objectFit: "cover",
+
+                          height: "300px",
                         }}
                       />
                       <div className="carousel-caption d-none d-md-block">
@@ -386,13 +430,13 @@ const About = () => {
                     {/* 3rd carousel */}
                     <div className="carousel-item">
                       <img
-                        src={tesda}
+                        src={tesdaPic2}
                         className="d-block w-100"
                         alt="..."
                         style={{
-                          objectFit: "contain",
-                          width: "150px",
-                          height: "150px",
+                          objectFit: "cover",
+
+                          height: "300px",
                         }}
                       />
                       <div className="carousel-caption d-none d-md-block">
