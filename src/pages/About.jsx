@@ -219,7 +219,7 @@ const About = () => {
 
             <div className="col-sm-12 col-md-8">
               <h1 className="text-center my-3">
-                Kodego (<cite>Code-go</cite>)
+                KodeGo (<cite>Code-go</cite>)
               </h1>
               <section>
                 <p>

@@ -511,8 +511,8 @@ const Project = () => {
                 <div className="card-body">
                   <h5 className="card-title">Kodego Capstone</h5>
                   <p className="card-text">
-                    This is the final output of my experience in kodego. It is a
-                    collaboration project together with my co-bootcampers.
+                    This is the final output of my experience in kodegooject
+                    together with my co-bootcampers.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button

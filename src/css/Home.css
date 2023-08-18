@@ -1,0 +1,56 @@
+.home-about {
+  background-image: url(../assets/Home/Home-about.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.home-card {
+  background-color: transparent;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+}
+
+.home-project {
+  background-image: url(../assets/bootcamp.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  height: 50vh;
+}
+
+.home-project-card {
+  background-color: transparent;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.home-contact {
+  background-image: url(../assets/Home/home-contact.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  height: 50vh;
+}
+.home-contact-card {
+  background-color: transparent;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}

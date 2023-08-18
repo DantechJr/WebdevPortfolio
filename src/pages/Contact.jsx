@@ -28,8 +28,13 @@ const Contact = () => {
   };
   return (
     <>
-      <div style={{ marginTop: "100px", marginBottom: "100px" }}>
-        <div className="row pt-5 my-5 mx-5 mx-auto contact">
+      <div className="contact-page">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="row mx-5 mx-auto contact">
           <h1 className="text-center">I'd love to here from you</h1>
           <div className="col-sm-12 col-md-6 info container p-3">
             <h5 className="">Drop a message and let's have a little chat</h5>
