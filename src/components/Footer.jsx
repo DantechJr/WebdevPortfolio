@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,21 +15,21 @@ const Footer = () => {
             style={{ width: "100px" }}
           >
             <li className="ms-3">
-              <a
+              <Link
                 className="text-body-secondary"
-                href="https://github.com/DantechJr?tab=repositories"
+                to="https://github.com/DantechJr?tab=repositories"
               >
                 <i className="bi bi-github" width="24" height="24"></i>
-              </a>
+              </Link>
             </li>
 
             <li className="ms-3">
-              <a
+              <Link
                 className="text-body-secondary"
-                href="https://www.linkedin.com/in/dante-alcantara-jr-a41bb6253/"
+                to="https://www.linkedin.com/in/dante-alcantara-jr-a41bb6253/"
               >
                 <i className="bi bi-linkedin" width="24" height="24"></i>
-              </a>
+              </Link>
             </li>
           </div>
         </div>

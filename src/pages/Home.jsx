@@ -4,6 +4,7 @@ import About from "./About";
 import Project from "./Project";
 import Contact from "./Contact";
 import "../css/Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,9 +33,9 @@ const Home = () => {
             <p className="card-text">
               Know more about my education background and trainings
             </p>
-            <a href="#" className="btn btn-dark">
+            <Link to="/About" className="btn btn-dark">
               Check me out!
-            </a>
+            </Link>
           </div>
           <div className="card-footer text-body-secondary">
             <b> Feel free to look around</b>
@@ -55,9 +56,9 @@ const Home = () => {
               Check out some of my outputs through out my journey as i step into
               the world of web development
             </p>
-            <a href="#" className="btn btn-dark">
+            <Link to="/Project" className="btn btn-dark">
               Look here!
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -76,9 +77,9 @@ const Home = () => {
               if you find something that picks your interest don't hesitate to
               use the contact form and leave a message!
             </p>
-            <a href="#" className="btn btn-dark">
+            <Link to="/Contact" className="btn btn-dark">
               Connect with me!
-            </a>
+            </Link>
           </div>
         </div>
       </div>
