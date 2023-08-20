@@ -15,7 +15,8 @@ const Project = () => {
             {/* first card my portfolio */}
             <div className="col ">
               <div className="card">
-                <img src={kodego} className="card-img-top" alt="..." />
+                <iframe src="https://lottie.host/?file=8e2943dd-a32c-4838-b510-aaaf11961a77/K8d6b0oFjs.json"></iframe>
+
                 <div className="card-body">
                   <h5 className="card-title">My Portfolio</h5>
                   <p className="card-text">
@@ -261,7 +262,11 @@ const Project = () => {
             {/* 2nd card wordpress project */}
             <div className="col ">
               <div className="card">
-                <img src={kodego} className="card-img-top" alt="..." />
+                {/* <img src={kodego} className="card-img-top" alt="..." /> */}
+                <iframe
+                  className="mt-4"
+                  src="https://lottie.host/?file=ed2d0465-6b58-4069-a0eb-53da8356ab75/ukR04csMHY.json"
+                ></iframe>
                 <div className="card-body">
                   <h5 className="card-title">Wordpress Project</h5>
                   <p className="card-text">

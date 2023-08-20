@@ -17,6 +17,9 @@ const About = () => {
   return (
     <>
       <div>
+        <div className="text-center">
+          <iframe src="https://lottie.host/?file=5d816f53-4664-4683-b029-ba9335182f17/ZKr0zHSOAP.json"></iframe>
+        </div>
         {/* college */}
         <div className="container-fluid college border mb-3">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
