@@ -232,7 +232,7 @@ const About = () => {
                 <p>
                   The bootcamp didn't just teach us how to develop a web app; it
                   also gave us the experience of how to
-                  <b> collaborate with a team</b>
+                  <b> collaborate with a team </b>
                   to finish a project efficiently and on time, which is the most
                   important thing we acquired in the bootcamp.
                 </p>
