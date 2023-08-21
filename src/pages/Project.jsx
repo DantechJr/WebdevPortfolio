@@ -1,5 +1,9 @@
 import React from "react";
 import sample from "../assets/sample.jpg";
+import Phome from "../assets/portfolio/P1.jpg";
+import Pabout from "../assets/portfolio/P2.jpg";
+import Pproject from "../assets/portfolio/P3.jpg";
+import Pcontact from "../assets/portfolio/P4.jpg";
 import kodego from "../assets/kodegologo.png";
 import github from "../assets/github.png";
 import { Link } from "react-router-dom";
@@ -50,7 +54,7 @@ const Project = () => {
                             className="modal-title fs-5"
                             id="staticBackdropLabel"
                           >
-                            Project Type
+                            Personal Info
                           </h1>
                           <button
                             type="button"
@@ -63,9 +67,9 @@ const Project = () => {
                           {/* modal body card section */}
                           <div className="card mb-3">
                             <div className="row g-0">
-                              <div className="col-md-4">
+                              <div className="col-md-4 my-auto">
                                 <img
-                                  src={kodego}
+                                  src={Pcontact}
                                   className="img-fluid rounded-start"
                                   alt="..."
                                   style={{ width: "100%" }}
@@ -73,15 +77,22 @@ const Project = () => {
                               </div>
                               <div className="col-md-8">
                                 <div className="card-body">
-                                  <h5 className="card-title">Project Name</h5>
+                                  <h5 className="card-title">My Portfolio</h5>
                                   <p className="card-text">
-                                    Leron Leron sinta Buko ng papaya Dala-dala'y
-                                    buslo Sisidlan ng sinta Pagdating sa dulo'y
-                                    Nabali ang sanga Kapos kapalaran Humanap ng
-                                    iba
+                                    This is my portfolio, where you can see my
+                                    education and training background as well as
+                                    my developments. I created this portfolio
+                                    using ReactJS and Bootstrap. I also used
+                                    EmailJs for the contact form so that I could
+                                    receive messages from the viewers.
                                   </p>
                                   <br></br>
                                   <b>Technologies used:</b>&nbsp;
+                                  <span>
+                                    <i className="fa-brands fa-react"></i>
+                                    &nbsp;&nbsp;
+                                    <i className="fa-brands fa-bootstrap"></i>
+                                  </span>
                                   <div className="card-text d-flex flex-wrap justify-content-between  align-items-center py-1 my-1 border-top">
                                     <div className="col-md-8 d-flex align-items-center">
                                       <small className=" mb-md-0 text-body-secondary">
@@ -92,28 +103,28 @@ const Project = () => {
 
                                     <ul className="nav col-md-4 justify-content-end mx-auto list-unstyled d-flex">
                                       <li className="ms-3">
-                                        <a
+                                        <Link
                                           className="text-body-secondary"
-                                          href="#"
+                                          to="https://github.com/DantechJr/WebdevPortfolio"
                                         >
                                           <i
                                             className="bi bi-github"
                                             width="30"
                                             height="30"
                                           ></i>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li className="ms-3">
-                                        <a
+                                        <Link
                                           className="text-body-secondary"
-                                          href="#"
+                                          to="https://webdev-portfolio-omega.vercel.app/"
                                         >
                                           <i
                                             className="bi bi-play-circle"
                                             width="30"
                                             height="30"
                                           ></i>
-                                        </a>
+                                        </Link>
                                       </li>
                                     </ul>
                                   </div>
@@ -155,7 +166,7 @@ const Project = () => {
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={Phome}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
@@ -165,10 +176,10 @@ const Project = () => {
                                   }}
                                 />
                                 <div className="carousel-caption d-none d-md-block">
-                                  <h5>First slide label</h5>
+                                  <h5>About me Page</h5>
                                   <p>
-                                    Some representative placeholder content for
-                                    the first slide.
+                                    You can view my education backgorund and
+                                    trainings here.
                                   </p>
                                 </div>
                               </div>
@@ -177,7 +188,7 @@ const Project = () => {
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={Pabout}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
@@ -187,10 +198,9 @@ const Project = () => {
                                   }}
                                 />
                                 <div className="carousel-caption d-none d-md-block">
-                                  <h5>Second slide label</h5>
+                                  <h5>Contact Form Page</h5>
                                   <p>
-                                    Some representative placeholder content for
-                                    the second slide.
+                                    You can contact with me through this page.
                                   </p>
                                 </div>
                               </div>
@@ -199,7 +209,7 @@ const Project = () => {
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={Pproject}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
@@ -209,10 +219,9 @@ const Project = () => {
                                   }}
                                 />
                                 <div className="carousel-caption d-none d-md-block">
-                                  <h5>Third slide label</h5>
-                                  <p>
-                                    Some representative placeholder content for
-                                    the third slide.
+                                  <h5 className="text-dark">Home page</h5>
+                                  <p className="text-dark">
+                                    This is the home page of my portfolio
                                   </p>
                                 </div>
                               </div>
