@@ -23,6 +23,13 @@ import A12 from "../assets/akeesha/akeesha11.jpg";
 import A13 from "../assets/college/capstoneCaseCover.jpg";
 import A14 from "../assets/college/groupPic.png";
 import A15 from "../assets/college/capstonePassed.jpg";
+import myadmin from "../assets/phpmyadmin.png";
+import IL from "../assets/inkless/inklessLogo.png";
+import I1 from "../assets/inkless/inkless1.jpg";
+import I2 from "../assets/inkless/inkless2.jpg";
+import I3 from "../assets/inkless/inkless3.jpg";
+import I4 from "../assets/inkless/inkless4.jpg";
+import alahas from "../assets/miniProjects/alahas.jpg";
 
 const Project = () => {
   return (
@@ -807,7 +814,12 @@ const Project = () => {
             {/* 3rd card kodego capstone project */}
             <div className="col ">
               <div className="card">
-                <img src={kodego} className="card-img-top" alt="..." />
+                <img
+                  src={kodego}
+                  className="card-img-top mx-auto"
+                  alt="..."
+                  style={{ width: "300px", objectFit: "contain" }}
+                />
                 <div className="card-body">
                   <h5 className="card-title">Kodego Capstone</h5>
                   <p className="card-text">
@@ -841,7 +853,7 @@ const Project = () => {
                             className="modal-title fs-5"
                             id="staticBackdrop2Label"
                           >
-                            Project Type
+                            Kodego Capstone
                           </h1>
                           <button
                             type="button"
@@ -856,23 +868,73 @@ const Project = () => {
                             <div className="row g-0">
                               <div className="col-md-4">
                                 <img
-                                  src={kodego}
+                                  src={IL}
                                   className="img-fluid rounded-start"
                                   alt="..."
-                                  style={{ width: "100%" }}
+                                  style={{
+                                    width: "100%",
+                                    objectFit: "contain",
+                                  }}
                                 />
                               </div>
                               <div className="col-md-8">
                                 <div className="card-body">
-                                  <h5 className="card-title">Project Name</h5>
-                                  <p className="card-text">
-                                    Leron Leron sinta Buko ng papaya Dala-dala'y
-                                    buslo Sisidlan ng sinta Pagdating sa dulo'y
-                                    Nabali ang sanga Kapos kapalaran Humanap ng
-                                    iba
-                                  </p>
+                                  <h5 className="card-title">Inkless Reads</h5>
+                                  <section className="card-text">
+                                    <p>
+                                      This represents the culmination of my
+                                      bootcamp at Kodego. My fellow bootcamper
+                                      and I use <b>ReactJs</b> for the front-end
+                                      and
+                                      <b> Laravel</b> for the back-end to create
+                                      our capstone project, which is the server
+                                      for our system. We utilize <b>MySQL </b>
+                                      and
+                                      <b> PHPMyAdmin</b> to store user data and
+                                      fetch
+                                      <b> API's</b> from an external internet
+                                      source to show books. Last but not least,
+                                      in order to design, layout, and set our
+                                      system's responsiveness so that it can be
+                                      viewed on various screen widths, we employ
+                                      <b> Bootstrap</b> .
+                                    </p>
+                                    <p>
+                                      Our project is called <b>Inkless Reads</b>
+                                      . It is an internet store that offers
+                                      electronic books for sale. We developed
+                                      our e-book online shop to work in tandem
+                                      with the fact that we now live in a world
+                                      where technology rules everything and that
+                                      reading real books is increasingly fading
+                                      into history. With the use of their
+                                      preferred technology, such as smartphones,
+                                      tablets, or PCs, inkless reads aims to
+                                      inspire individuals to read more
+                                      frequently.
+                                    </p>
+                                  </section>
                                   <br></br>
                                   <b>Technologies used:</b>&nbsp;
+                                  <span>
+                                    <i className="fa-brands fa-react mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-laravel mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-bootstrap mx-1"></i>
+                                  </span>
+                                  <span className="mx-1">
+                                    <img
+                                      src={myadmin}
+                                      alt=""
+                                      style={{
+                                        width: "50px",
+                                        objectFit: "contain",
+                                      }}
+                                    />
+                                  </span>
                                   <div className="card-text d-flex flex-wrap justify-content-between  align-items-center py-1 my-1 border-top">
                                     <div className="col-md-8 d-flex align-items-center">
                                       <small className=" mb-md-0 text-body-secondary">
@@ -883,28 +945,28 @@ const Project = () => {
 
                                     <ul className="nav col-md-4 justify-content-end mx-auto list-unstyled d-flex">
                                       <li className="ms-3">
-                                        <a
+                                        <Link
                                           className="text-body-secondary"
-                                          href="#"
+                                          to="https://github.com/Jml-Azares/InklessReads"
                                         >
                                           <i
                                             className="bi bi-github"
                                             width="30"
                                             height="30"
                                           ></i>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li className="ms-3">
-                                        <a
+                                        <Link
                                           className="text-body-secondary"
-                                          href="#"
+                                          to="https://inkless-reads.vercel.app/"
                                         >
                                           <i
                                             className="bi bi-play-circle"
                                             width="30"
                                             height="30"
                                           ></i>
-                                        </a>
+                                        </Link>
                                       </li>
                                     </ul>
                                   </div>
@@ -918,35 +980,13 @@ const Project = () => {
                             className="carousel slide"
                             data-bs-ride="carousel"
                           >
-                            <div className="carousel-indicators">
-                              <button
-                                type="button"
-                                data-bs-target="#carouselExampleCaptions2"
-                                data-bs-slide-to="0"
-                                className="active"
-                                aria-current="true"
-                                aria-label="Slide 1"
-                              ></button>
-                              <button
-                                type="button"
-                                data-bs-target="#carouselExampleCaptions2"
-                                data-bs-slide-to="1"
-                                aria-label="Slide 2"
-                              ></button>
-                              <button
-                                type="button"
-                                data-bs-target="#carouselExampleCaptions2"
-                                data-bs-slide-to="2"
-                                aria-label="Slide 3"
-                              ></button>
-                            </div>
                             <div className="carousel-inner">
                               <div
                                 className="carousel-item bg-dark active"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={I1}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
@@ -955,20 +995,20 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption d-none d-md-block">
                                   <h5>First slide label</h5>
                                   <p>
                                     Some representative placeholder content for
                                     the first slide.
                                   </p>
-                                </div>
+                                </div> */}
                               </div>
                               <div
                                 className="carousel-item bg-dark"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={I2}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
@@ -977,20 +1017,20 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption d-none d-md-block">
                                   <h5>Second slide label</h5>
                                   <p>
                                     Some representative placeholder content for
                                     the second slide.
                                   </p>
-                                </div>
+                                </div> */}
                               </div>
                               <div
                                 className="carousel-item bg-dark"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={I3}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
@@ -999,13 +1039,35 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption d-none d-md-block">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
                                     the third slide.
                                   </p>
-                                </div>
+                                </div> */}
+                              </div>
+                              <div
+                                className="carousel-item bg-dark"
+                                style={{ borderRadius: "10px" }}
+                              >
+                                <img
+                                  src={I4}
+                                  className="d-block w-100"
+                                  alt="..."
+                                  style={{
+                                    height: "200px",
+                                    width: "200px",
+                                    objectFit: "contain",
+                                  }}
+                                />
+                                {/* <div className="carousel-caption d-none d-md-block">
+                                  <h5>Third slide label</h5>
+                                  <p>
+                                    Some representative placeholder content for
+                                    the third slide.
+                                  </p>
+                                </div> */}
                               </div>
                             </div>
                             <button
@@ -1054,7 +1116,12 @@ const Project = () => {
             {/* 4th card kodego mini projects */}
             <div className="col ">
               <div className="card">
-                <img src={kodego} className="card-img-top" alt="..." />
+                <img
+                  src={kodego}
+                  className="card-img-top mx-auto"
+                  alt="..."
+                  style={{ width: "300px", objectFit: "contain" }}
+                />
                 <div className="card-body">
                   <h5 className="card-title">Kodego mini projects</h5>
                   <p className="card-text">
@@ -1088,7 +1155,7 @@ const Project = () => {
                             className="modal-title fs-5"
                             id="staticBackdrop3Label"
                           >
-                            Project Type
+                            Compilation
                           </h1>
                           <button
                             type="button"
@@ -1111,7 +1178,7 @@ const Project = () => {
                               </div>
                               <div className="col-md-8">
                                 <div className="card-body">
-                                  <h5 className="card-title">Project Name</h5>
+                                  <h5 className="card-title">Mini Projects</h5>
                                   <p className="card-text">
                                     Leron Leron sinta Buko ng papaya Dala-dala'y
                                     buslo Sisidlan ng sinta Pagdating sa dulo'y
@@ -1120,40 +1187,31 @@ const Project = () => {
                                   </p>
                                   <br></br>
                                   <b>Technologies used:</b>&nbsp;
+                                  <span>
+                                    <i className="fa-brands fa-html5 mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-css3-alt mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-square-js mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-bootstrap mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-react mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-laravel mx-1"></i>
+                                  </span>
                                   <div className="card-text d-flex flex-wrap justify-content-between  align-items-center py-1 my-1 border-top">
                                     <div className="col-md-8 d-flex align-items-center">
                                       <small className=" mb-md-0 text-body-secondary">
                                         Feel free to check the live demo and
-                                        code
+                                        code on the sample pictures.
                                       </small>
                                     </div>
-
-                                    <ul className="nav col-md-4 justify-content-end mx-auto list-unstyled d-flex">
-                                      <li className="ms-3">
-                                        <a
-                                          className="text-body-secondary"
-                                          href="#"
-                                        >
-                                          <i
-                                            className="bi bi-github"
-                                            width="30"
-                                            height="30"
-                                          ></i>
-                                        </a>
-                                      </li>
-                                      <li className="ms-3">
-                                        <a
-                                          className="text-body-secondary"
-                                          href="#"
-                                        >
-                                          <i
-                                            className="bi bi-play-circle"
-                                            width="30"
-                                            height="30"
-                                          ></i>
-                                        </a>
-                                      </li>
-                                    </ul>
                                   </div>
                                 </div>
                               </div>
@@ -1165,49 +1223,61 @@ const Project = () => {
                             className="carousel slide"
                             data-bs-ride="carousel"
                           >
-                            <div className="carousel-indicators">
-                              <button
-                                type="button"
-                                data-bs-target="#carouselExampleCaptions3"
-                                data-bs-slide-to="0"
-                                className="active"
-                                aria-current="true"
-                                aria-label="Slide 1"
-                              ></button>
-                              <button
-                                type="button"
-                                data-bs-target="#carouselExampleCaptions3"
-                                data-bs-slide-to="1"
-                                aria-label="Slide 2"
-                              ></button>
-                              <button
-                                type="button"
-                                data-bs-target="#carouselExampleCaptions3"
-                                data-bs-slide-to="2"
-                                aria-label="Slide 3"
-                              ></button>
-                            </div>
                             <div className="carousel-inner">
                               <div
                                 className="carousel-item bg-dark active"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={kodego}
+                                  src={alahas}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
-                                    height: "200px",
-                                    width: "200px",
+                                    height: "300px",
                                     objectFit: "contain",
                                   }}
                                 />
                                 <div className="carousel-caption d-none d-md-block">
-                                  <h5>First slide label</h5>
+                                  <h5>Kodego Mini Projects 1</h5>
+                                  <p>E-commerce website</p>
+                                  <small>tech stacks</small>
+                                  <span>
+                                    <i className="fa-brands fa-html5 mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-css3-alt mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-bootstrap mx-1"></i>
+                                  </span>
                                   <p>
-                                    Some representative placeholder content for
-                                    the first slide.
+                                    click the bouncing icons to view live page
+                                    or the code in the repository
                                   </p>
+                                  <span>
+                                    <Link
+                                      className="text-body-secondary"
+                                      to="https://github.com/DantechJr/MiniProject1"
+                                    >
+                                      <i
+                                        className="fa-brands fa-github fa-bounce mx-3 text-light"
+                                        width="50px"
+                                        height="50px"
+                                      ></i>
+                                    </Link>
+                                  </span>
+                                  <span>
+                                    <Link
+                                      className="text-body-secondary"
+                                      to="https://dantechjr.github.io/MiniProject1/"
+                                    >
+                                      <i
+                                        className="fa-regular fa-circle-play fa-bounce mx-3 text-light"
+                                        width="50px"
+                                        height="50px"
+                                      ></i>
+                                    </Link>
+                                  </span>
                                 </div>
                               </div>
                               <div
@@ -1225,11 +1295,49 @@ const Project = () => {
                                   }}
                                 />
                                 <div className="carousel-caption d-none d-md-block">
-                                  <h5>Second slide label</h5>
+                                  <h5>TicTacToe</h5>
+                                  <p>Mini Game</p>
+                                  <small>tech stacks</small>
+                                  <span>
+                                    <i className="fa-brands fa-html5 mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-css3-alt mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-square-js mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-bootstrap mx-1"></i>
+                                  </span>
                                   <p>
-                                    Some representative placeholder content for
-                                    the second slide.
+                                    click the bouncing icons to view live page
+                                    or the code in the repository
                                   </p>
+                                  <span>
+                                    <Link
+                                      className="text-body-secondary"
+                                      to="https://github.com/DantechJr/MiniProject1"
+                                    >
+                                      <i
+                                        className="fa-brands fa-github fa-bounce mx-3 text-light"
+                                        width="50px"
+                                        height="50px"
+                                      ></i>
+                                    </Link>
+                                  </span>
+                                  <span>
+                                    <Link
+                                      className="text-body-secondary"
+                                      to="https://dantechjr.github.io/MiniProject1/"
+                                    >
+                                      <i
+                                        className="fa-regular fa-circle-play fa-bounce mx-3 text-light"
+                                        width="50px"
+                                        height="50px"
+                                      ></i>
+                                    </Link>
+                                  </span>
                                 </div>
                               </div>
                               <div
@@ -1247,11 +1355,52 @@ const Project = () => {
                                   }}
                                 />
                                 <div className="carousel-caption d-none d-md-block">
-                                  <h5>Third slide label</h5>
+                                  <h5>Quote Generator</h5>
+                                  <p>Mini project</p>
+                                  <small>tech stacks</small>
+                                  <span>
+                                    <i className="fa-brands fa-html5 mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-css3-alt mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-square-js mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-react mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-bootstrap mx-1"></i>
+                                  </span>
                                   <p>
-                                    Some representative placeholder content for
-                                    the third slide.
+                                    click the bouncing icons to view live page
+                                    or the code in the repository
                                   </p>
+                                  <span>
+                                    <Link
+                                      className="text-body-secondary"
+                                      to="https://github.com/DantechJr/MiniProject1"
+                                    >
+                                      <i
+                                        className="fa-brands fa-github fa-bounce mx-3 text-light"
+                                        width="50px"
+                                        height="50px"
+                                      ></i>
+                                    </Link>
+                                  </span>
+                                  <span>
+                                    <Link
+                                      className="text-body-secondary"
+                                      to="https://dantechjr.github.io/MiniProject1/"
+                                    >
+                                      <i
+                                        className="fa-regular fa-circle-play fa-bounce mx-3 text-light"
+                                        width="50px"
+                                        height="50px"
+                                      ></i>
+                                    </Link>
+                                  </span>
                                 </div>
                               </div>
                             </div>
