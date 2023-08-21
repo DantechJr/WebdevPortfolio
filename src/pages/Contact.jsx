@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../css/Contact.css";
-import avatar from "../assets/avatar.gif";
 
 const Contact = () => {
   const form = useRef();
@@ -33,14 +32,15 @@ const Contact = () => {
         <br />
         <br />
         <br />
-        <br />
         <div className="row mx-5 mx-auto contact">
-          <h1 className="text-center">I'd love to here from you</h1>
+          <h1 className="text-center">I'd love to hear from you.</h1>
           <div className="col-sm-12 col-md-6 info container p-3">
-            <h5 className="">Drop a message and let's have a little chat</h5>
+            <h5 className="text-center">
+              Drop me a message and let's have a little chat.
+            </h5>
             <p>
-              For any sort of questions, feel free to send me an email or just
-              want to say hi, I'll try my best to get back to you!
+              For any sort of question, feel free to send me an email or just If
+              you want to say hi, I'll try my best to get back to you!
             </p>
             <hr />
             <h5>Personal Information</h5>
@@ -85,6 +85,10 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </>
   );

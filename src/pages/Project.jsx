@@ -20,7 +20,7 @@ const Project = () => {
                 <div className="card-body">
                   <h5 className="card-title">My Portfolio</h5>
                   <p className="card-text">
-                    This is my Wed Development Portfolio. You can see some of my
+                    This is my web development portfolio. You can see some of my
                     personal achievements and development projects.
                   </p>
                   {/* <!-- Button trigger modal --> */}
@@ -516,8 +516,8 @@ const Project = () => {
                 <div className="card-body">
                   <h5 className="card-title">Kodego Capstone</h5>
                   <p className="card-text">
-                    This is the final output of my experience in kodegooject
-                    together with my co-bootcampers.
+                    This is the final output of my experience with the Kodego. A
+                    Capstone Project together with my co-bootcampers.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button
@@ -762,8 +762,8 @@ const Project = () => {
                 <div className="card-body">
                   <h5 className="card-title">Kodego mini projects</h5>
                   <p className="card-text">
-                    In here you view a compilation of my mini projects in kodego
-                    bootcamp as a full-stack web dev.
+                    Here you can view a compilation of my mini-projects in
+                    Kodego. As a full-stack web developer bootcamper.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button
