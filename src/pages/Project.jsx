@@ -1206,18 +1206,19 @@ const Project = () => {
                                           <div className="accordion-body">
                                             <div className="row">
                                               <div className="col-12">
-                                                <strong>
-                                                  This is my mini project 1 in
-                                                  kodego bootcamp
-                                                </strong>
                                                 <p>
-                                                  in this project we are
+                                                  This is my
+                                                  <b> Mini Project 1 </b>
+                                                  in Kodego Bootcamp. In this
+                                                  project, I developed an
+                                                  e-commerce website that sells
+                                                  jewelry online, and we were
                                                   required to develop a system
-                                                  using only HTML CSS and
+                                                  using only HTML, CSS, and
                                                   Bootstrap for layout and to
                                                   make it responsive to
-                                                  different screen sizes. no
-                                                  functionalities yet, just
+                                                  different screen sizes. No
+                                                  functionalities yet; just
                                                   static.
                                                   <span>
                                                     <Link
@@ -1272,23 +1273,29 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <strong>
-                                              This is the second item's
-                                              accordion body.
-                                            </strong>{" "}
-                                            It is hidden by default, until the
-                                            collapse plugin adds the appropriate
-                                            classes that we use to style each
-                                            element. These classes control the
-                                            overall appearance, as well as the
-                                            showing and hiding via CSS
-                                            transitions. You can modify any of
-                                            this with custom CSS or overriding
-                                            our default variables. It's also
-                                            worth noting that just about any
-                                            HTML can go within the{" "}
-                                            <code>.accordion-body</code>, though
-                                            the transition does limit overflow.
+                                            <b>Tictactoe </b>
+                                            is a mini game developed using HTML,
+                                            CSS, and Javascript. This activity
+                                            in the bootcamp measures and
+                                            practices our capabilities in logic
+                                            since this app is more into logic
+                                            functionalities.
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -1312,23 +1319,33 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <strong>
-                                              This is the third item's accordion
-                                              body.
-                                            </strong>{" "}
-                                            It is hidden by default, until the
-                                            collapse plugin adds the appropriate
-                                            classes that we use to style each
-                                            element. These classes control the
-                                            overall appearance, as well as the
-                                            showing and hiding via CSS
-                                            transitions. You can modify any of
-                                            this with custom CSS or overriding
-                                            our default variables. It's also
-                                            worth noting that just about any
-                                            HTML can go within the{" "}
-                                            <code>.accordion-body</code>, though
-                                            the transition does limit overflow.
+                                            <p>
+                                              <b>Quote Generator </b>
+                                              <span>
+                                                is an activity that generates
+                                                random quotes that are being
+                                                retrieved from an external API.
+                                                It was developed using HTML,
+                                                CSS, JavaScript, Bootstrap, and
+                                                ReactJs.
+                                              </span>
+                                              <span>
+                                                <Link
+                                                  className="text-body-secondary"
+                                                  to="#"
+                                                >
+                                                  <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                </Link>
+                                              </span>
+                                              <span>
+                                                <Link
+                                                  className="text-body-secondary"
+                                                  to="#"
+                                                >
+                                                  <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                </Link>
+                                              </span>
+                                            </p>
                                           </div>
                                         </div>
                                       </div>
@@ -1352,23 +1369,31 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <strong>
-                                              This is the first item's accordion
-                                              body.
-                                            </strong>{" "}
-                                            It is shown by default, until the
-                                            collapse plugin adds the appropriate
-                                            classes that we use to style each
-                                            element. These classes control the
-                                            overall appearance, as well as the
-                                            showing and hiding via CSS
-                                            transitions. You can modify any of
-                                            this with custom CSS or overriding
-                                            our default variables. It's also
-                                            worth noting that just about any
-                                            HTML can go within the{" "}
-                                            <code>.accordion-body</code>, though
-                                            the transition does limit overflow.
+                                            <b>Rock, Paper, Scissors </b>
+                                            is a fun minigame to play. whether
+                                            you want to play solo with the
+                                            computer or play with your friends
+                                            in player vs. player mode. This game
+                                            was developed using HTML, CSS, and
+                                            Javascript since logic and functions
+                                            are very much needed in this
+                                            project.
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -1392,23 +1417,32 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <strong>
-                                              This is the third item's accordion
-                                              body.
-                                            </strong>{" "}
-                                            It is hidden by default, until the
-                                            collapse plugin adds the appropriate
-                                            classes that we use to style each
-                                            element. These classes control the
-                                            overall appearance, as well as the
-                                            showing and hiding via CSS
-                                            transitions. You can modify any of
-                                            this with custom CSS or overriding
-                                            our default variables. It's also
-                                            worth noting that just about any
-                                            HTML can go within the{" "}
-                                            <code>.accordion-body</code>, though
-                                            the transition does limit overflow.
+                                            <b>The Quiz app</b> is a form of
+                                            question with multiple answers to
+                                            choose from. A green color will
+                                            appear if you pick the right answer
+                                            and a red color if it's wrong. There
+                                            are only 10 questions, and after all
+                                            is done, the total score will
+                                            display, and you have the option to
+                                            try again. This project is developed
+                                            using HTML, CSS, and Javascript.
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -1432,23 +1466,31 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <strong>
-                                              This is the third item's accordion
-                                              body.
-                                            </strong>{" "}
-                                            It is hidden by default, until the
-                                            collapse plugin adds the appropriate
-                                            classes that we use to style each
-                                            element. These classes control the
-                                            overall appearance, as well as the
-                                            showing and hiding via CSS
-                                            transitions. You can modify any of
-                                            this with custom CSS or overriding
-                                            our default variables. It's also
-                                            worth noting that just about any
-                                            HTML can go within the{" "}
-                                            <code>.accordion-body</code>, though
-                                            the transition does limit overflow.
+                                            The<b> CSS Keyframes </b>
+                                            Activity is a challenge wherein we
+                                            must duplicate the sample video
+                                            Kodego provides. All of the elements
+                                            in that video are moving
+                                            differently, one after another. Only
+                                            HTML and CSS are used in this
+                                            activity's keyframes for the
+                                            animation of the elements.
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
                                           </div>
                                         </div>
                                       </div>
@@ -1487,219 +1529,6 @@ const Project = () => {
                               </div>
                             </div>
                           </div>
-                          {/* modal body carousel starts here */}
-                          {/* <div
-                            id="carouselExampleCaptions3"
-                            className="carousel slide"
-                            data-bs-ride="carousel"
-                          >
-                            <div className="carousel-inner">
-                              <div
-                                className="carousel-item bg-dark active"
-                                style={{ borderRadius: "10px" }}
-                              >
-                                <img
-                                  src={alahas}
-                                  className="d-block w-100"
-                                  alt="..."
-                                  style={{
-                                    height: "300px",
-                                    objectFit: "contain",
-                                  }}
-                                />
-                                <div className="carousel-caption">
-                                  <h5>Kodego Mini Projects 1</h5>
-                                  <p>E-commerce website</p>
-                                  <small>tech stacks</small>
-                                  <span>
-                                    <i className="fa-brands fa-html5 mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-css3-alt mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-bootstrap mx-1"></i>
-                                  </span>
-                                  <p>
-                                    click the bouncing icons to view live page
-                                    or the code in the repository
-                                  </p>
-                                  <span>
-                                    <Link
-                                      className="text-body-secondary"
-                                      to="https://github.com/DantechJr/MiniProject1"
-                                    >
-                                      <i
-                                        className="fa-brands fa-github fa-bounce mx-3 text-light"
-                                        width="50px"
-                                        height="50px"
-                                      ></i>
-                                    </Link>
-                                  </span>
-                                  <span>
-                                    <Link
-                                      className="text-body-secondary"
-                                      to="https://dantechjr.github.io/MiniProject1/"
-                                    >
-                                      <i
-                                        className="fa-regular fa-circle-play fa-bounce mx-3 text-light"
-                                        width="50px"
-                                        height="50px"
-                                      ></i>
-                                    </Link>
-                                  </span>
-                                </div>
-                              </div>
-                              <div
-                                className="carousel-item bg-dark"
-                                style={{ borderRadius: "10px" }}
-                              >
-                                <img
-                                  src={kodego}
-                                  className="d-block w-100"
-                                  alt="..."
-                                  style={{
-                                    height: "200px",
-                                    width: "200px",
-                                    objectFit: "contain",
-                                  }}
-                                />
-                                <div className="carousel-caption">
-                                  <h5>TicTacToe</h5>
-                                  <p>Mini Game</p>
-                                  <small>tech stacks</small>
-                                  <span>
-                                    <i className="fa-brands fa-html5 mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-css3-alt mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-square-js mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-bootstrap mx-1"></i>
-                                  </span>
-                                  <p>
-                                    click the bouncing icons to view live page
-                                    or the code in the repository
-                                  </p>
-                                  <span>
-                                    <Link
-                                      className="text-body-secondary"
-                                      to="https://github.com/DantechJr/MiniProject1"
-                                    >
-                                      <i
-                                        className="fa-brands fa-github fa-bounce mx-3 text-light"
-                                        width="50px"
-                                        height="50px"
-                                      ></i>
-                                    </Link>
-                                  </span>
-                                  <span>
-                                    <Link
-                                      className="text-body-secondary"
-                                      to="https://dantechjr.github.io/MiniProject1/"
-                                    >
-                                      <i
-                                        className="fa-regular fa-circle-play fa-bounce mx-3 text-light"
-                                        width="50px"
-                                        height="50px"
-                                      ></i>
-                                    </Link>
-                                  </span>
-                                </div>
-                              </div>
-                              <div
-                                className="carousel-item bg-dark"
-                                style={{ borderRadius: "10px" }}
-                              >
-                                <img
-                                  src={kodego}
-                                  className="d-block w-100"
-                                  alt="..."
-                                  style={{
-                                    height: "200px",
-                                    width: "200px",
-                                    objectFit: "contain",
-                                  }}
-                                />
-                                <div className="carousel-caption">
-                                  <h5>Quote Generator</h5>
-                                  <p>Mini project</p>
-                                  <small>tech stacks</small>
-                                  <span>
-                                    <i className="fa-brands fa-html5 mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-css3-alt mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-square-js mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-react mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-bootstrap mx-1"></i>
-                                  </span>
-                                  <p>
-                                    click the bouncing icons to view live page
-                                    or the code in the repository
-                                  </p>
-                                  <span>
-                                    <Link
-                                      className="text-body-secondary"
-                                      to="https://github.com/DantechJr/MiniProject1"
-                                    >
-                                      <i
-                                        className="fa-brands fa-github fa-bounce mx-3 text-light"
-                                        width="50px"
-                                        height="50px"
-                                      ></i>
-                                    </Link>
-                                  </span>
-                                  <span>
-                                    <Link
-                                      className="text-body-secondary"
-                                      to="https://dantechjr.github.io/MiniProject1/"
-                                    >
-                                      <i
-                                        className="fa-regular fa-circle-play fa-bounce mx-3 text-light"
-                                        width="50px"
-                                        height="50px"
-                                      ></i>
-                                    </Link>
-                                  </span>
-                                </div>
-                              </div>
-                            </div>
-                            <button
-                              className="carousel-control-prev"
-                              type="button"
-                              data-bs-target="#carouselExampleCaptions3"
-                              data-bs-slide="prev"
-                            >
-                              <span
-                                className="carousel-control-prev-icon"
-                                aria-hidden="true"
-                              ></span>
-                              <span className="visually-hidden">Previous</span>
-                            </button>
-                            <button
-                              className="carousel-control-next"
-                              type="button"
-                              data-bs-target="#carouselExampleCaptions3"
-                              data-bs-slide="next"
-                            >
-                              <span
-                                className="carousel-control-next-icon"
-                                aria-hidden="true"
-                              ></span>
-                              <span className="visually-hidden">Next</span>
-                            </button>
-                          </div> */}
-                          {/* modal body carousel ends here */}
                         </div>
                         <div className="modal-footer">
                           <button
