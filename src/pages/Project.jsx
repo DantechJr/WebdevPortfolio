@@ -197,7 +197,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption ">
                                   <h5>About me Page</h5>
                                   <p>
                                     You can view my education backgorund and
@@ -219,7 +219,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption ">
                                   <h5>Contact Form Page</h5>
                                   <p>
                                     You can contact with me through this page.
@@ -240,7 +240,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption ">
                                   <h5 className="text-dark">Home page</h5>
                                   <p className="text-dark">
                                     This is the home page of my portfolio
@@ -473,7 +473,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>First slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -495,7 +495,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Second slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -517,7 +517,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -539,7 +539,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -561,7 +561,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -583,7 +583,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -605,7 +605,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -627,7 +627,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -649,7 +649,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -671,7 +671,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -693,7 +693,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -715,7 +715,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -737,7 +737,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -759,7 +759,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>Third slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -995,7 +995,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
+                                {/* <div className="carousel-caption ">
                                   <h5>First slide label</h5>
                                   <p>
                                     Some representative placeholder content for
@@ -1179,12 +1179,281 @@ const Project = () => {
                               <div className="col-md-8">
                                 <div className="card-body">
                                   <h5 className="card-title">Mini Projects</h5>
-                                  <p className="card-text">
-                                    Leron Leron sinta Buko ng papaya Dala-dala'y
-                                    buslo Sisidlan ng sinta Pagdating sa dulo'y
-                                    Nabali ang sanga Kapos kapalaran Humanap ng
-                                    iba
-                                  </p>
+                                  <div className="card-text">
+                                    <div
+                                      className="accordion"
+                                      id="accordionExample"
+                                    >
+                                      {/* accordion 1  mini project 1*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne"
+                                            aria-expanded="false"
+                                            aria-controls="collapseOne"
+                                          >
+                                            Mini Project 1
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseOne"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <strong>
+                                                  This is my mini project 1 in
+                                                  kodego bootcamp
+                                                </strong>
+                                                <p>
+                                                  in this project we are
+                                                  required to develop a system
+                                                  using only HTML CSS and
+                                                  Bootstrap for layout and to
+                                                  make it responsive to
+                                                  different screen sizes. no
+                                                  functionalities yet, just
+                                                  static.
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://github.com/DantechJr/MiniProject1"
+                                                    >
+                                                      <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://dantechjr.github.io/MiniProject1/"
+                                                    >
+                                                      <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                </p>
+                                              </div>
+                                              <div className="col-12 ">
+                                                <img
+                                                  src={alahas}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 2 tictactoe*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo"
+                                          >
+                                            TicTacToe
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseTwo"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <strong>
+                                              This is the second item's
+                                              accordion body.
+                                            </strong>{" "}
+                                            It is hidden by default, until the
+                                            collapse plugin adds the appropriate
+                                            classes that we use to style each
+                                            element. These classes control the
+                                            overall appearance, as well as the
+                                            showing and hiding via CSS
+                                            transitions. You can modify any of
+                                            this with custom CSS or overriding
+                                            our default variables. It's also
+                                            worth noting that just about any
+                                            HTML can go within the{" "}
+                                            <code>.accordion-body</code>, though
+                                            the transition does limit overflow.
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 3 quote generator*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="collapseThree"
+                                          >
+                                            Quote Generator
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseThree"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <strong>
+                                              This is the third item's accordion
+                                              body.
+                                            </strong>{" "}
+                                            It is hidden by default, until the
+                                            collapse plugin adds the appropriate
+                                            classes that we use to style each
+                                            element. These classes control the
+                                            overall appearance, as well as the
+                                            showing and hiding via CSS
+                                            transitions. You can modify any of
+                                            this with custom CSS or overriding
+                                            our default variables. It's also
+                                            worth noting that just about any
+                                            HTML can go within the{" "}
+                                            <code>.accordion-body</code>, though
+                                            the transition does limit overflow.
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 4 rock paper scissors*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapsefour"
+                                            aria-expanded="false"
+                                            aria-controls="collapsefour"
+                                          >
+                                            Rock Paper Scissors
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapsefour"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <strong>
+                                              This is the first item's accordion
+                                              body.
+                                            </strong>{" "}
+                                            It is shown by default, until the
+                                            collapse plugin adds the appropriate
+                                            classes that we use to style each
+                                            element. These classes control the
+                                            overall appearance, as well as the
+                                            showing and hiding via CSS
+                                            transitions. You can modify any of
+                                            this with custom CSS or overriding
+                                            our default variables. It's also
+                                            worth noting that just about any
+                                            HTML can go within the{" "}
+                                            <code>.accordion-body</code>, though
+                                            the transition does limit overflow.
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 5 quiz app*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapsefive"
+                                            aria-expanded="false"
+                                            aria-controls="collapsefive"
+                                          >
+                                            Quiz App
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapsefive"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <strong>
+                                              This is the third item's accordion
+                                              body.
+                                            </strong>{" "}
+                                            It is hidden by default, until the
+                                            collapse plugin adds the appropriate
+                                            classes that we use to style each
+                                            element. These classes control the
+                                            overall appearance, as well as the
+                                            showing and hiding via CSS
+                                            transitions. You can modify any of
+                                            this with custom CSS or overriding
+                                            our default variables. It's also
+                                            worth noting that just about any
+                                            HTML can go within the{" "}
+                                            <code>.accordion-body</code>, though
+                                            the transition does limit overflow.
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 6 css key frames*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapsesix"
+                                            aria-expanded="false"
+                                            aria-controls="collapsesix"
+                                          >
+                                            CSS Key Frames
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapsesix"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <strong>
+                                              This is the third item's accordion
+                                              body.
+                                            </strong>{" "}
+                                            It is hidden by default, until the
+                                            collapse plugin adds the appropriate
+                                            classes that we use to style each
+                                            element. These classes control the
+                                            overall appearance, as well as the
+                                            showing and hiding via CSS
+                                            transitions. You can modify any of
+                                            this with custom CSS or overriding
+                                            our default variables. It's also
+                                            worth noting that just about any
+                                            HTML can go within the{" "}
+                                            <code>.accordion-body</code>, though
+                                            the transition does limit overflow.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
                                   <br></br>
                                   <b>Technologies used:</b>&nbsp;
                                   <span>
@@ -1209,7 +1478,8 @@ const Project = () => {
                                     <div className="col-md-8 d-flex align-items-center">
                                       <small className=" mb-md-0 text-body-secondary">
                                         Feel free to check the live demo and
-                                        code on the sample pictures.
+                                        code provided inside the accordion
+                                        dropdown.
                                       </small>
                                     </div>
                                   </div>
@@ -1218,7 +1488,7 @@ const Project = () => {
                             </div>
                           </div>
                           {/* modal body carousel starts here */}
-                          <div
+                          {/* <div
                             id="carouselExampleCaptions3"
                             className="carousel slide"
                             data-bs-ride="carousel"
@@ -1237,7 +1507,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption">
                                   <h5>Kodego Mini Projects 1</h5>
                                   <p>E-commerce website</p>
                                   <small>tech stacks</small>
@@ -1294,7 +1564,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption">
                                   <h5>TicTacToe</h5>
                                   <p>Mini Game</p>
                                   <small>tech stacks</small>
@@ -1354,7 +1624,7 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption d-none d-md-block">
+                                <div className="carousel-caption">
                                   <h5>Quote Generator</h5>
                                   <p>Mini project</p>
                                   <small>tech stacks</small>
@@ -1428,7 +1698,7 @@ const Project = () => {
                               ></span>
                               <span className="visually-hidden">Next</span>
                             </button>
-                          </div>
+                          </div> */}
                           {/* modal body carousel ends here */}
                         </div>
                         <div className="modal-footer">
