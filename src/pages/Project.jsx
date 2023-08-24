@@ -30,6 +30,9 @@ import I2 from "../assets/inkless/inkless2.jpg";
 import I3 from "../assets/inkless/inkless3.jpg";
 import I4 from "../assets/inkless/inkless4.jpg";
 import alahas from "../assets/miniProjects/alahas.jpg";
+import quote from "../assets/miniProjects/QuoteGen.jpg";
+import quiz from "../assets/miniProjects/QuizApp.jpg";
+import keyframes from "../assets/miniProjects/Keyframes.jpg";
 
 const Project = () => {
   return (
@@ -816,9 +819,9 @@ const Project = () => {
               <div className="card">
                 <img
                   src={kodego}
-                  className="card-img-top mx-auto"
+                  className="card-img-top mx-auto img-fluid rounded-start"
                   alt="..."
-                  style={{ width: "300px", objectFit: "contain" }}
+                  style={{ width: "50%", objectFit: "contain" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Kodego Capstone</h5>
@@ -1118,9 +1121,9 @@ const Project = () => {
               <div className="card">
                 <img
                   src={kodego}
-                  className="card-img-top mx-auto"
+                  className="card-img-top mx-auto img-fluid rounded-start"
                   alt="..."
-                  style={{ width: "300px", objectFit: "contain" }}
+                  style={{ width: "50%", objectFit: "contain" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Kodego mini projects</h5>
@@ -1168,7 +1171,7 @@ const Project = () => {
                           {/* modal body card section */}
                           <div className="card mb-3">
                             <div className="row g-0">
-                              <div className="col-md-4">
+                              <div className="col-md-4 my-auto">
                                 <img
                                   src={kodego}
                                   className="img-fluid rounded-start"
@@ -1319,33 +1322,49 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <p>
-                                              <b>Quote Generator </b>
-                                              <span>
-                                                is an activity that generates
-                                                random quotes that are being
-                                                retrieved from an external API.
-                                                It was developed using HTML,
-                                                CSS, JavaScript, Bootstrap, and
-                                                ReactJs.
-                                              </span>
-                                              <span>
-                                                <Link
-                                                  className="text-body-secondary"
-                                                  to="#"
-                                                >
-                                                  <i className="fa-brands fa-github fa-bounce mx-3 "></i>
-                                                </Link>
-                                              </span>
-                                              <span>
-                                                <Link
-                                                  className="text-body-secondary"
-                                                  to="#"
-                                                >
-                                                  <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
-                                                </Link>
-                                              </span>
-                                            </p>
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <p>
+                                                  <b>Quote Generator </b>
+                                                  <span>
+                                                    is an activity that
+                                                    generates random quotes that
+                                                    are being retrieved from an
+                                                    external API. It was
+                                                    developed using HTML, CSS,
+                                                    JavaScript, Bootstrap, and
+                                                    ReactJs.
+                                                  </span>
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://github.com/DantechJr/QuoteGenerator"
+                                                    >
+                                                      <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://quote-generator-seven-zeta.vercel.app/"
+                                                    >
+                                                      <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                </p>
+                                              </div>
+                                              <div className="col-12">
+                                                <img
+                                                  src={quote}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -1417,32 +1436,49 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <b>The Quiz app</b> is a form of
-                                            question with multiple answers to
-                                            choose from. A green color will
-                                            appear if you pick the right answer
-                                            and a red color if it's wrong. There
-                                            are only 10 questions, and after all
-                                            is done, the total score will
-                                            display, and you have the option to
-                                            try again. This project is developed
-                                            using HTML, CSS, and Javascript.
-                                            <span>
-                                              <Link
-                                                className="text-body-secondary"
-                                                to="#"
-                                              >
-                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
-                                              </Link>
-                                            </span>
-                                            <span>
-                                              <Link
-                                                className="text-body-secondary"
-                                                to="#"
-                                              >
-                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
-                                              </Link>
-                                            </span>
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <b>The Quiz app</b> is a form of
+                                                question with multiple answers
+                                                to choose from. A green color
+                                                will appear if you pick the
+                                                right answer and a red color if
+                                                it's wrong. There are only 10
+                                                questions, and after all is
+                                                done, the total score will
+                                                display, and you have the option
+                                                to try again. This project is
+                                                developed using HTML, CSS, and
+                                                Javascript.
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/DantechJr/Quiz-App"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://dantechjr.github.io/Quiz-App/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              <div className="col">
+                                                <img
+                                                  src={quiz}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -1466,31 +1502,47 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            The<b> CSS Keyframes </b>
-                                            Activity is a challenge wherein we
-                                            must duplicate the sample video
-                                            Kodego provides. All of the elements
-                                            in that video are moving
-                                            differently, one after another. Only
-                                            HTML and CSS are used in this
-                                            activity's keyframes for the
-                                            animation of the elements.
-                                            <span>
-                                              <Link
-                                                className="text-body-secondary"
-                                                to="#"
-                                              >
-                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
-                                              </Link>
-                                            </span>
-                                            <span>
-                                              <Link
-                                                className="text-body-secondary"
-                                                to="#"
-                                              >
-                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
-                                              </Link>
-                                            </span>
+                                            <div className="row">
+                                              <div className="col-12">
+                                                The<b> CSS Keyframes </b>
+                                                Activity is a challenge wherein
+                                                we must duplicate the sample
+                                                video Kodego provides. All of
+                                                the elements in that video are
+                                                moving differently, one after
+                                                another. Only HTML and CSS are
+                                                used in this activity's
+                                                keyframes for the animation of
+                                                the elements.
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/DantechJr/CSS-Keyframes"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://dantechjr.github.io/CSS-Keyframes/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              <div className="col-12">
+                                                <img
+                                                  src={keyframes}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>
@@ -1512,9 +1564,6 @@ const Project = () => {
                                   </span>
                                   <span>
                                     <i className="fa-brands fa-react mx-1"></i>
-                                  </span>
-                                  <span>
-                                    <i className="fa-brands fa-laravel mx-1"></i>
                                   </span>
                                   <div className="card-text d-flex flex-wrap justify-content-between  align-items-center py-1 my-1 border-top">
                                     <div className="col-md-8 d-flex align-items-center">
@@ -1547,6 +1596,8 @@ const Project = () => {
             </div>
           </div>
         </div>
+        <br />
+        <br />
       </div>
     </>
   );

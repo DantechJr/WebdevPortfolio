@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="fixed-bottom">
         <div className="row p-3 d-flex  justify-content-between mx-auto">
           <div className="col-sm-12 col-md-6" style={{ width: "200px" }}>
             <small>&copy; 2023 Dante.Alcantara.Jr™</small>

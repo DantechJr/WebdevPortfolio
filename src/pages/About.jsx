@@ -12,6 +12,7 @@ import caseCover from "../assets/college/capstoneCaseCover.jpg";
 import groupPic from "../assets/college/groupPic.png";
 import capstonePassed from "../assets/college/capstonePassed.jpg";
 import capstoneCD from "../assets/college/capstoneCD.jpg";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -107,16 +108,19 @@ const About = () => {
                     </div>
                     {/* 2nd carousel */}
                     <div className="carousel-item">
-                      <img
-                        src={groupPic}
-                        className="d-block mx-auto w-100"
-                        alt="..."
-                        style={{
-                          objectFit: "contain",
+                      <Link target="_blank" to="groupPic.png">
+                        <img
+                          src={groupPic}
+                          className="d-block mx-auto w-100"
+                          alt="..."
+                          style={{
+                            objectFit: "contain",
 
-                          height: "300px",
-                        }}
-                      />
+                            height: "300px",
+                          }}
+                        />
+                      </Link>
+
                       <div className="carousel-caption d-none d-md-block"></div>
                     </div>
                     {/* 3rd carousel */}
@@ -464,6 +468,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      <br />
+      <br />
     </>
   );
 };

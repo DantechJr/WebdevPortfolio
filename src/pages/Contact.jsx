@@ -27,7 +27,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="contact-page">
+      <div className="contact-page my-auto">
         <br />
         <br />
         <br />
@@ -85,6 +85,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
+        <br />
         <br />
         <br />
         <br />
