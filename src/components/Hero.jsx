@@ -22,7 +22,7 @@ const Hero = () => {
                   I am <strong>Dante Alcantara Jr</strong>, a highly motivated
                   and enthusiastic entry-level web developer with a strong
                   passion for creating interactive and user-friendly websites.
-                  Equipped with a solid foundation in front-end development
+                  Equipped with the fundamentals of web development
                   technologies, including<strong> HTML</strong>,
                   <strong>CSS</strong>, and
                   <strong> JavaScript</strong>. A quick learner with a strong

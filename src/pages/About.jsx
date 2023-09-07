@@ -4,6 +4,7 @@ import Gradpic from "../assets/college/gradpic.jpg";
 import kodego from "../assets/kodegologo.png";
 import kodegoPic1 from "../assets/kodego/kodegoPic1.png";
 import kodegoPic2 from "../assets/kodego/kodegoPic2.png";
+import kodegocert from "../assets/kodego/kodegoCert.jpg";
 import tesda from "../assets/tesda.png";
 import tesdaPic from "../assets/tesda/tesdaPic1.jpg";
 import tesdaPic2 from "../assets/tesda/tesdaPic2.jpg";
@@ -276,13 +277,6 @@ const About = () => {
                           height: "300px",
                         }}
                       />
-                      <div className="carousel-caption d-none d-md-block">
-                        {/* <h5>Second slide label</h5>
-                      <p>
-                        Some representative placeholder content for the second
-                        slide.
-                      </p> */}
-                      </div>
                     </div>
                     {/* 3rd carousel */}
                     <div className="carousel-item">
@@ -295,15 +289,22 @@ const About = () => {
                           height: "300px",
                         }}
                       />
-                      <div className="carousel-caption d-none d-md-block">
-                        {/* <h5>Third slide label</h5>
-                      <p>
-                        Some representative placeholder content for the third
-                        slide.
-                      </p> */}
-                      </div>
+                    </div>
+
+                    {/* 4th carousel */}
+                    <div className="carousel-item">
+                      <img
+                        src={kodegocert}
+                        className="d-block w-100"
+                        alt="Kodego Certificate"
+                        style={{
+                          objectFit: "contain",
+                          height: "300px",
+                        }}
+                      />
                     </div>
                   </div>
+
                   <button
                     className="carousel-control-prev"
                     type="button"
@@ -410,13 +411,6 @@ const About = () => {
                           height: "300px",
                         }}
                       />
-                      <div className="carousel-caption d-none d-md-block">
-                        {/* <h5>Second slide label</h5>
-                      <p>
-                        Some representative placeholder content for the second
-                        slide.
-                      </p> */}
-                      </div>
                     </div>
                     {/* 3rd carousel */}
                     <div className="carousel-item">
@@ -429,13 +423,6 @@ const About = () => {
                           height: "300px",
                         }}
                       />
-                      <div className="carousel-caption d-none d-md-block">
-                        {/* <h5>Third slide label</h5>
-                      <p>
-                        Some representative placeholder content for the third
-                        slide.
-                      </p> */}
-                      </div>
                     </div>
                   </div>
                   <button

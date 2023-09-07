@@ -32,6 +32,7 @@ import I4 from "../assets/inkless/inkless4.jpg";
 import alahas from "../assets/miniProjects/alahas.jpg";
 import quote from "../assets/miniProjects/QuoteGen.jpg";
 import quiz from "../assets/miniProjects/QuizApp.jpg";
+import tictactoe from "../assets/miniProjects/tictactoePic.jpg";
 import keyframes from "../assets/miniProjects/Keyframes.jpg";
 
 const Project = () => {
@@ -200,13 +201,6 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption ">
-                                  <h5>About me Page</h5>
-                                  <p>
-                                    You can view my education backgorund and
-                                    trainings here.
-                                  </p>
-                                </div>
                               </div>
                               <div
                                 className="carousel-item bg-dark"
@@ -222,12 +216,6 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption ">
-                                  <h5>Contact Form Page</h5>
-                                  <p>
-                                    You can contact with me through this page.
-                                  </p>
-                                </div>
                               </div>
                               <div
                                 className="carousel-item bg-dark"
@@ -243,12 +231,6 @@ const Project = () => {
                                     objectFit: "contain",
                                   }}
                                 />
-                                <div className="carousel-caption ">
-                                  <h5 className="text-dark">Home page</h5>
-                                  <p className="text-dark">
-                                    This is the home page of my portfolio
-                                  </p>
-                                </div>
                               </div>
                             </div>
                             <button
@@ -1276,29 +1258,45 @@ const Project = () => {
                                           data-bs-parent="#accordionExample"
                                         >
                                           <div className="accordion-body">
-                                            <b>Tictactoe </b>
-                                            is a mini game developed using HTML,
-                                            CSS, and Javascript. This activity
-                                            in the bootcamp measures and
-                                            practices our capabilities in logic
-                                            since this app is more into logic
-                                            functionalities.
-                                            <span>
-                                              <Link
-                                                className="text-body-secondary"
-                                                to="#"
-                                              >
-                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
-                                              </Link>
-                                            </span>
-                                            <span>
-                                              <Link
-                                                className="text-body-secondary"
-                                                to="#"
-                                              >
-                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
-                                              </Link>
-                                            </span>
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <b>Tictactoe </b>
+                                                is a mini game developed using
+                                                HTML, CSS, and Javascript. This
+                                                activity in the bootcamp
+                                                measures and practices our
+                                                capabilities in logic since this
+                                                app is more into logic
+                                                functionalities.
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/DantechJr/TicTacToe"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://dantechjr.github.io/TicTacToe/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              <div className="col-12">
+                                                <img
+                                                  src={tictactoe}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
                                           </div>
                                         </div>
                                       </div>

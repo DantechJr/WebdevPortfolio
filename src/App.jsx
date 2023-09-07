@@ -5,7 +5,7 @@ import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 import NoPage from "./pages/NoPage";
 import Layout from "./pages/Layout";
-import "./App.css";
+// import "./App.css";
 
 const App = () => {
   return (
