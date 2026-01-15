@@ -13,6 +13,9 @@ import caseCover from "../assets/college/capstoneCaseCover.jpg";
 import groupPic from "../assets/college/groupPic.png";
 import capstonePassed from "../assets/college/capstonePassed.jpg";
 import capstoneCD from "../assets/college/capstoneCD.jpg";
+import sample from "../assets/sample.jpg";
+import nht from "../assets/NHT.jpg";
+import nhtbg from "../assets/nhtBg.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -182,6 +185,141 @@ const About = () => {
                     className="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Nanay's in IT */}
+        <div className="container-fluid Nht border mt-3">
+          <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
+            <div
+              className="col-sm-12 col-md-4 py-5 boxBorderR"
+              style={{ borderRadius: "10px 0 0 10px" }}
+            >
+              <img
+                src={sample}
+                alt="my grad pic"
+                className="gradpic"
+                style={{ borderRadius: "10px" }}
+              />
+            </div>
+
+            <div
+              className="col-sm-12 col-md-8 boxBorderR"
+              style={{ borderRadius: "0 10px 10px 0" }}
+            >
+              <h1 className="text-center my-3">Nanay's in IT</h1>
+              <section>
+                <p>
+                  Near Hire Training is the platform behind Nanay’s in IT, a
+                  free six-month IT training program designed to empower mothers
+                  and mother figures who dream of starting a career in the
+                  technology industry. The program is open to qualified
+                  applicants residing in Metro Manila and Cebu City who are 45
+                  years old or younger, currently unemployed, and equipped with
+                  their own laptop or desktop computer with stable internet
+                  access. Applicants may be college graduates or undergraduates
+                  in IT from 2020 or earlier, or have completed vocational or
+                  short-term courses, and individuals with disabilities are
+                  strongly encouraged to apply. Nanay’s in IT requires a full
+                  commitment to three months of intensive training followed by a
+                  three-month internship, with the goal of creating inclusive
+                  and sustainable career opportunities in tech.
+                </p>
+                <p>
+                  Throughout the training phase, learners are provided with
+                  premium access to Udemy and Coursera, allowing them to build
+                  strong foundations in in-demand, industry-relevant skills.
+                  These skills are then applied through the development of a
+                  Capstone Project—an end-to-end system that learners must
+                  build, present, and defend before a panel of judges as a key
+                  program output. After completing the Capstone, participants
+                  move on to a program-provided internship, followed by a
+                  graduation ceremony marking the completion of the journey.
+                  With dedicated employment support after the six-month program,
+                  Nanay’s in IT aims to equip learners with the practical
+                  skills, confidence, and real-world experience needed to
+                  successfully enter today’s modern technology workforce.
+                </p>
+                <p>
+                  The Program is funded by Accenture in the Philippines and
+                  implemented in partnership with PBSP and the YMCA of Manila.
+                </p>
+              </section>
+              {/* tesda carousel */}
+              <div className="col-12 mt-4">
+                <div
+                  id="carouselCaptions3"
+                  className="carousel slide mx-auto my-2"
+                  data-bs-ride="carousel"
+                >
+                  <div className="carousel-inner">
+                    {/* 1st carousel */}
+                    <div className="carousel-item active">
+                      <img
+                        src={nht}
+                        className="d-block mx-auto"
+                        alt="..."
+                        style={{
+                          objectFit: "cover",
+
+                          height: "100px",
+                        }}
+                      />
+                      {/* <div className="carousel-caption d-none d-md-block"></div> */}
+                      <h5 className="text-center m-3">NHT Program</h5>
+                    </div>
+                    {/* 2nd carousel */}
+                    <div className="carousel-item">
+                      <img
+                        src={tesdaPic}
+                        className="d-block mx-auto w-100"
+                        alt="..."
+                        style={{
+                          objectFit: "contain",
+                          height: "300px",
+                        }}
+                      />
+                    </div>
+                    {/* 3rd carousel */}
+                    <div className="carousel-item">
+                      <img
+                        src={tesdaPic2}
+                        className="d-block w-100"
+                        alt="..."
+                        style={{
+                          objectFit: "contain",
+                          height: "300px",
+                        }}
+                      />
+                    </div>
+                  </div>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselCaptions3"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselCaptions3"
                     data-bs-slide="next"
                   >
                     <span

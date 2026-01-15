@@ -30,6 +30,19 @@
   background-attachment: fixed;
 }
 
+.Nht {
+  background-image: linear-gradient(
+      rgba(20, 20, 20, 0.4),
+      rgba(20, 20, 20, 0.4)
+    ),
+    url(../assets/nhtBg.jpg);
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .kodego {
   background-image: linear-gradient(
       rgba(20, 20, 20, 0.4),

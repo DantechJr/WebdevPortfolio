@@ -1,5 +1,6 @@
 nav {
   background: rgba(255, 255, 255, 0.25);
+
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -11,6 +12,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-link {
   color: #343a40 !important;
   font-weight: 500;
@@ -19,6 +21,10 @@ nav {
 .nav-link:hover {
   color: #6c757d !important;
   font-weight: 600;
+}
+
+.nav-item {
+  background-color: transparent;
 }
 .navbar-brand {
   font-size: 1.5rem;

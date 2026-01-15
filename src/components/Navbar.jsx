@@ -8,11 +8,19 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar sticky-top navbar-expand-lg bg-body-transparent px-3">
-        <div className="container-fluid">
+        <div className="container-fluid bg-transparent">
           {/* Logo */}
-          <Link className="navbar-brand d-flex align-items-center" to="/">
-            <img src={Dog} alt="dog hello" style={{ width: "40px" }} />
-            <strong className="ms-2">DANTE</strong>
+          <Link
+            className="navbar-brand d-flex align-items-center bg-transparent"
+            to="/"
+          >
+            <img
+              src={Dog}
+              alt="dog hello"
+              className="bg-transparent"
+              style={{ width: "40px" }}
+            />
+            <strong className="ms-2 bg-transparent">DANTE</strong>
           </Link>
 
           {/* Toggler */}
@@ -30,10 +38,10 @@ export const Navbar = () => {
 
           {/* Collapsible Menu */}
           <div
-            className="collapse navbar-collapse text-center"
+            className="collapse navbar-collapse text-center bg-transparent"
             id="navbarNavDropdown"
           >
-            <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-3 bg-transparent">
               <li className="nav-item">
                 <Link className="nav-link active" to="/">
                   Home
