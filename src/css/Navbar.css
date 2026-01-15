@@ -1,6 +1,5 @@
 nav {
-  background: rgba(255, 255, 255, 0.25);
-
+  background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -11,10 +10,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .nav-link {
-  color: #343a40 !important;
+  color: whitesmoke !important;
   font-weight: 500;
   font-size: 1.1rem;
 }
@@ -29,18 +33,12 @@ nav {
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #343a40 !important;
+  color: whitesmoke !important;
 }
 .navbar-brand:hover {
   color: #6c757d !important;
 }
-.navbar-toggler {
-  border: none;
-}
-.navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
-}
+
 .navbar-collapse {
   justify-content: flex-end;
 }

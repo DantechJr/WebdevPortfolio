@@ -15,14 +15,20 @@ import capstonePassed from "../assets/college/capstonePassed.jpg";
 import capstoneCD from "../assets/college/capstoneCD.jpg";
 import sample from "../assets/sample.jpg";
 import nht from "../assets/NHT.jpg";
-import nhtbg from "../assets/nhtBg.jpg";
+import Acn from "../assets/nht/acn.png";
+import Ymca from "../assets/nht/ymca.png";
+import Pbsp from "../assets/nht/pbspLogo.jpg";
+import kb1 from "../assets/nht/KB1.jpg";
+import kb2 from "../assets/nht/KB2.jpg";
+import kb3 from "../assets/nht/KB3.jpg";
+import kb4 from "../assets/nht/KB4.jpg";
 import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <>
       <div>
-        <div className="text-center">
+        <div className="text-center aboutContainer">
           <iframe
             src="https://lottie.host/?file=5d816f53-4664-4683-b029-ba9335182f17/ZKr0zHSOAP.json"
             className="w-25"
@@ -35,7 +41,7 @@ const About = () => {
           </span>
         </div>
         {/* college */}
-        <div className="container-fluid college border mb-3">
+        <div className="container-fluid college border">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
             <div className="col-sm-12  img-fluid col-md-4">
               <img
@@ -200,14 +206,14 @@ const About = () => {
         </div>
 
         {/* Nanay's in IT */}
-        <div className="container-fluid Nht border mt-3">
+        <div className="container-fluid Nht border">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
             <div
               className="col-sm-12 col-md-4 py-5 boxBorderR"
               style={{ borderRadius: "10px 0 0 10px" }}
             >
               <img
-                src={sample}
+                src={nht}
                 alt="my grad pic"
                 className="gradpic"
                 style={{ borderRadius: "10px" }}
@@ -256,7 +262,7 @@ const About = () => {
                   implemented in partnership with PBSP and the YMCA of Manila.
                 </p>
               </section>
-              {/* tesda carousel */}
+              {/* NHT carousel */}
               <div className="col-12 mt-4">
                 <div
                   id="carouselCaptions3"
@@ -267,39 +273,39 @@ const About = () => {
                     {/* 1st carousel */}
                     <div className="carousel-item active">
                       <img
-                        src={nht}
+                        src={Acn}
                         className="d-block mx-auto"
                         alt="..."
                         style={{
                           objectFit: "cover",
 
-                          height: "100px",
+                          height: "130px",
                         }}
                       />
                       {/* <div className="carousel-caption d-none d-md-block"></div> */}
-                      <h5 className="text-center m-3">NHT Program</h5>
+                      {/* <h5 className="text-center m-3">NHT Program</h5> */}
                     </div>
                     {/* 2nd carousel */}
                     <div className="carousel-item">
                       <img
-                        src={tesdaPic}
+                        src={Ymca}
                         className="d-block mx-auto w-100"
                         alt="..."
                         style={{
                           objectFit: "contain",
-                          height: "300px",
+                          height: "150px",
                         }}
                       />
                     </div>
                     {/* 3rd carousel */}
                     <div className="carousel-item">
                       <img
-                        src={tesdaPic2}
+                        src={Pbsp}
                         className="d-block w-100"
                         alt="..."
                         style={{
                           objectFit: "contain",
-                          height: "300px",
+                          height: "150px",
                         }}
                       />
                     </div>
@@ -335,7 +341,7 @@ const About = () => {
         </div>
 
         {/* Kodego */}
-        <div className="container-fluid kodego border my-3">
+        <div className="container-fluid kodego border">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
             <div className="col-sm-12 col-md-4">
               <img
@@ -474,7 +480,7 @@ const About = () => {
         </div>
 
         {/* Tesda */}
-        <div className="container-fluid tesda border mt-3">
+        <div className="container-fluid tesda border">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
             <div className="colsm-12 col-md-4">
               <img

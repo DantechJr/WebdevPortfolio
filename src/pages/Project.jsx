@@ -34,18 +34,24 @@ import quote from "../assets/miniProjects/QuoteGen.jpg";
 import quiz from "../assets/miniProjects/QuizApp.jpg";
 import tictactoe from "../assets/miniProjects/tictactoePic.jpg";
 import keyframes from "../assets/miniProjects/Keyframes.jpg";
+import nht from "../assets/NHT.jpg";
+import kb from "../assets/nht/logo.png";
+import kb1 from "../assets/nht/KB1.jpg";
+import kb2 from "../assets/nht/KB2.jpg";
+import kb3 from "../assets/nht/KB3.jpg";
+import kb4 from "../assets/nht/KB4.jpg";
 import { buildProjectionTransform } from "framer-motion";
 
 const Project = () => {
   return (
     <>
-      <div className="container-fluid mainContainer py-3">
-        <h1 className="text-center container bg-transparent rounded-3">
+      <div className="container-fluid mainContainer pb-5">
+        <h1 className="text-center container bg-transparent py-5 rounded-3">
           Project Gallery
         </h1>
         <div className="container-fluid projectBox my-auto px-auto">
           <div className="container row row-cols-1 row-cols-sm-12 row-cols-md-2 row-cols-lg-4 row-gap-3 mx-auto my-5 bg-transparent">
-            {/* first card my portfolio */}
+            {/*--------------------------------------- first card my portfolio------------------------------------------------ */}
             <div className="col container bg-transparent rounded-3">
               <div className="card projectCard">
                 <iframe
@@ -282,7 +288,7 @@ const Project = () => {
               </div>
             </div>
 
-            {/* 2nd card wordpress project */}
+            {/*--------------------------------------- 2nd card wordpress project--------------------------------- */}
             <div className="col container bg-transparent rounded-3">
               <div className="card projectCard">
                 {/* <img src={kodego} className="card-img-top" alt="..." /> */}
@@ -803,20 +809,19 @@ const Project = () => {
               </div>
             </div>
 
-            {/* 3rd card kodego capstone project */}
+            {/*------------------------------------ 3rd card Near Hire Training------------------------------------- */}
             <div className="col container bg-transparent rounded-3">
               <div className="card projectCard">
                 <img
-                  src={kodego}
+                  src={nht}
                   className="card-img-top mx-auto img-fluid rounded-start"
                   alt="..."
                   style={{ width: "100%", objectFit: "cover" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Kodego Capstone</h5>
+                  <h5 className="card-title">Nanay's in IT</h5>
                   <p className="card-text">
-                    This is the final output of my experience with the Kodego. A
-                    Capstone Project together with my co-bootcampers.
+                    This is my output and experience with Near Hire Training.
                   </p>
                   {/* <!-- Button trigger modal --> */}
                   <button
@@ -845,7 +850,7 @@ const Project = () => {
                             className="modal-title fs-5"
                             id="staticBackdrop2Label"
                           >
-                            Kodego Capstone
+                            NHT Capstone Project
                           </h1>
                           <button
                             type="button"
@@ -860,7 +865,7 @@ const Project = () => {
                             <div className="row g-0">
                               <div className="col-md-4">
                                 <img
-                                  src={IL}
+                                  src={kb}
                                   className="img-fluid rounded-start"
                                   alt="..."
                                   style={{
@@ -871,39 +876,33 @@ const Project = () => {
                               </div>
                               <div className="col-md-8">
                                 <div className="card-body">
-                                  <h5 className="card-title">Inkless Reads</h5>
+                                  <h5 className="card-title">
+                                    Kusina Buddy AI Recipe Generator
+                                  </h5>
                                   <section className="card-text">
                                     <p>
-                                      This represents the culmination of my
-                                      bootcamp at Kodego. My fellow bootcamper
-                                      and I use <b>ReactJs</b> for the front-end
-                                      and
-                                      <b> Laravel</b> for the back-end to create
-                                      our capstone project, which is the server
-                                      for our system. We utilize <b>MySQL </b>
-                                      and
-                                      <b> PHPMyAdmin</b> to store user data and
-                                      fetch
-                                      <b> API's</b> from an external internet
-                                      source to show books. Last but not least,
-                                      in order to design, layout, and set our
-                                      system's responsiveness so that it can be
-                                      viewed on various screen widths, we employ
-                                      <b> Bootstrap</b> .
+                                      Kusina Buddy was created to make everyday
+                                      meal planning easier for everyone. We know
+                                      how stressful it can be to think about
+                                      what to cook, especially when time and
+                                      ingredients are limited. That’s why we
+                                      built an AI-powered tool that helps you
+                                      generate recipes based on what you already
+                                      have, plan meals for the week, and stay
+                                      organized with built-in tools like a
+                                      calculator and notepad.
                                     </p>
                                     <p>
-                                      Our project is called <b>Inkless Reads</b>
-                                      . It is an internet store that offers
-                                      electronic books for sale. We developed
-                                      our e-book online shop to work in tandem
-                                      with the fact that we now live in a world
-                                      where technology rules everything and that
-                                      reading real books is increasingly fading
-                                      into history. With the use of their
-                                      preferred technology, such as smartphones,
-                                      tablets, or PCs, inkless reads aims to
-                                      inspire individuals to read more
-                                      frequently.
+                                      Behind this project is Infinite Loop
+                                      Thinkers, a group of NIT Batch 5 learners.
+                                      While we come from different skill levels
+                                      and backgrounds, we share a common goal:
+                                      to learn, grow, and create practical,
+                                      user-friendly tech solutions. Through the
+                                      program, we gained skills in Python and
+                                      web technologies, allowing us to combine
+                                      creativity and technology to solve real
+                                      problems in simple, meaningful ways.
                                     </p>
                                   </section>
                                   <br></br>
@@ -939,7 +938,7 @@ const Project = () => {
                                       <li className="ms-3">
                                         <Link
                                           className="text-body-secondary"
-                                          to="https://github.com/Jml-Azares/InklessReads"
+                                          to="https://github.com/DantechJr/KusinaBuddy"
                                         >
                                           <i
                                             className="bi bi-github"
@@ -951,7 +950,7 @@ const Project = () => {
                                       <li className="ms-3">
                                         <Link
                                           className="text-body-secondary"
-                                          to="https://inkless-reads.vercel.app/"
+                                          to="https://kusinabuddy.onrender.com/"
                                         >
                                           <i
                                             className="bi bi-play-circle"
@@ -978,88 +977,60 @@ const Project = () => {
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={I1}
+                                  src={kb1}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
                                     height: "200px",
-                                    width: "200px",
+                                    width: "100%",
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption ">
-                                  <h5>First slide label</h5>
-                                  <p>
-                                    Some representative placeholder content for
-                                    the first slide.
-                                  </p>
-                                </div> */}
                               </div>
                               <div
                                 className="carousel-item bg-dark"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={I2}
+                                  src={kb2}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
                                     height: "200px",
-                                    width: "200px",
+                                    width: "100%",
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
-                                  <h5>Second slide label</h5>
-                                  <p>
-                                    Some representative placeholder content for
-                                    the second slide.
-                                  </p>
-                                </div> */}
                               </div>
                               <div
                                 className="carousel-item bg-dark"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={I3}
+                                  src={kb3}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
                                     height: "200px",
-                                    width: "200px",
+                                    width: "100%",
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
-                                  <h5>Third slide label</h5>
-                                  <p>
-                                    Some representative placeholder content for
-                                    the third slide.
-                                  </p>
-                                </div> */}
                               </div>
                               <div
                                 className="carousel-item bg-dark"
                                 style={{ borderRadius: "10px" }}
                               >
                                 <img
-                                  src={I4}
+                                  src={kb4}
                                   className="d-block w-100"
                                   alt="..."
                                   style={{
                                     height: "200px",
-                                    width: "200px",
+                                    width: "100%",
                                     objectFit: "contain",
                                   }}
                                 />
-                                {/* <div className="carousel-caption d-none d-md-block">
-                                  <h5>Third slide label</h5>
-                                  <p>
-                                    Some representative placeholder content for
-                                    the third slide.
-                                  </p>
-                                </div> */}
                               </div>
                             </div>
                             <button
@@ -1105,7 +1076,7 @@ const Project = () => {
               </div>
             </div>
 
-            {/* 4th card kodego mini projects */}
+            {/*--------------------------------------4th card kodego projects--------------------------------------- */}
             <div className="col container bg-transparent rounded-3">
               <div className="card projectCard">
                 <img
@@ -1115,7 +1086,7 @@ const Project = () => {
                   style={{ width: "100%", objectFit: "cover" }}
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Kodego mini projects</h5>
+                  <h5 className="card-title">Kodego Projects</h5>
                   <p className="card-text">
                     Here you can view a compilation of my mini-projects in
                     Kodego. As a full-stack web developer bootcamper.
@@ -1176,7 +1147,7 @@ const Project = () => {
                                       className="accordion"
                                       id="accordionExample"
                                     >
-                                      {/* accordion 1  mini project 1*/}
+                                      {/*-------------------------- accordion 1  mini project 1---------------------------------------*/}
                                       <div className="accordion-item">
                                         <h2 className="accordion-header">
                                           <button
@@ -1245,7 +1216,7 @@ const Project = () => {
                                           </div>
                                         </div>
                                       </div>
-                                      {/* accordion 2 tictactoe*/}
+                                      {/*----------------------------- accordion 2 tictactoe-------------------------------------------*/}
                                       <div className="accordion-item">
                                         <h2 className="accordion-header">
                                           <button
@@ -1307,7 +1278,7 @@ const Project = () => {
                                           </div>
                                         </div>
                                       </div>
-                                      {/* accordion 3 quote generator*/}
+                                      {/*----------------------------- accordion 3 quote generator-------------------------------------*/}
                                       <div className="accordion-item">
                                         <h2 className="accordion-header">
                                           <button
@@ -1373,7 +1344,7 @@ const Project = () => {
                                           </div>
                                         </div>
                                       </div>
-                                      {/* accordion 4 rock paper scissors*/}
+                                      {/*--------------------------- accordion 4 rock paper scissors------------------------------------*/}
                                       <div className="accordion-item">
                                         <h2 className="accordion-header">
                                           <button
@@ -1421,7 +1392,7 @@ const Project = () => {
                                           </div>
                                         </div>
                                       </div>
-                                      {/* accordion 5 quiz app*/}
+                                      {/*------------------------------ accordion 5 quiz app--------------------------------------------*/}
                                       <div className="accordion-item">
                                         <h2 className="accordion-header">
                                           <button
@@ -1487,7 +1458,7 @@ const Project = () => {
                                           </div>
                                         </div>
                                       </div>
-                                      {/* accordion 6 css key frames*/}
+                                      {/*-------------------------------- accordion 6 css key frames-------------------------------------*/}
                                       <div className="accordion-item">
                                         <h2 className="accordion-header">
                                           <button
@@ -1551,6 +1522,202 @@ const Project = () => {
                                           </div>
                                         </div>
                                       </div>
+                                      {/*--------------------------------- accordion 7 Kodego Capstone Project----------------------------------*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseseven"
+                                            aria-expanded="false"
+                                            aria-controls="collapseseven"
+                                          >
+                                            Capstone Project
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseseven"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <section>
+                                                  <p>
+                                                    This represents the
+                                                    culmination of my bootcamp
+                                                    at Kodego. My fellow
+                                                    bootcamper and I use{" "}
+                                                    <b>ReactJs</b> for the
+                                                    front-end and
+                                                    <b> Laravel</b> for the
+                                                    back-end to create our
+                                                    capstone project, which is
+                                                    the server for our system.
+                                                    We utilize <b>MySQL </b>
+                                                    and
+                                                    <b> PHPMyAdmin</b> to store
+                                                    user data and fetch
+                                                    <b> API's</b> from an
+                                                    external internet source to
+                                                    show books. Last but not
+                                                    least, in order to design,
+                                                    layout, and set our system's
+                                                    responsiveness so that it
+                                                    can be viewed on various
+                                                    screen widths, we employ
+                                                    <b> Bootstrap</b> .
+                                                  </p>
+                                                  <p>
+                                                    Our project is called{" "}
+                                                    <b>Inkless Reads</b>. It is
+                                                    an internet store that
+                                                    offers electronic books for
+                                                    sale. We developed our
+                                                    e-book online shop to work
+                                                    in tandem with the fact that
+                                                    we now live in a world where
+                                                    technology rules everything
+                                                    and that reading real books
+                                                    is increasingly fading into
+                                                    history. With the use of
+                                                    their preferred technology,
+                                                    such as smartphones,
+                                                    tablets, or PCs, inkless
+                                                    reads aims to inspire
+                                                    individuals to read more
+                                                    frequently.
+                                                  </p>
+                                                </section>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/Jml-Azares/InklessReads"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-2 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://inkless-reads.vercel.app/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-2 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              {/* modal body carousel starts here */}
+                                              <div
+                                                id="carouselExampleCaptions2"
+                                                className="carousel slide"
+                                                data-bs-ride="carousel"
+                                              >
+                                                <div className="carousel-inner">
+                                                  <div
+                                                    className="carousel-item bg-dark active"
+                                                    style={{
+                                                      borderRadius: "10px",
+                                                    }}
+                                                  >
+                                                    <img
+                                                      src={I1}
+                                                      className="d-block w-100"
+                                                      alt="..."
+                                                      style={{
+                                                        height: "200px",
+                                                        width: "200px",
+                                                        objectFit: "contain",
+                                                      }}
+                                                    />
+                                                  </div>
+                                                  <div
+                                                    className="carousel-item bg-dark"
+                                                    style={{
+                                                      borderRadius: "10px",
+                                                    }}
+                                                  >
+                                                    <img
+                                                      src={I2}
+                                                      className="d-block w-100"
+                                                      alt="..."
+                                                      style={{
+                                                        height: "200px",
+                                                        width: "200px",
+                                                        objectFit: "contain",
+                                                      }}
+                                                    />
+                                                  </div>
+                                                  <div
+                                                    className="carousel-item bg-dark"
+                                                    style={{
+                                                      borderRadius: "10px",
+                                                    }}
+                                                  >
+                                                    <img
+                                                      src={I3}
+                                                      className="d-block w-100"
+                                                      alt="..."
+                                                      style={{
+                                                        height: "200px",
+                                                        width: "200px",
+                                                        objectFit: "contain",
+                                                      }}
+                                                    />
+                                                  </div>
+                                                  <div
+                                                    className="carousel-item bg-dark"
+                                                    style={{
+                                                      borderRadius: "10px",
+                                                    }}
+                                                  >
+                                                    <img
+                                                      src={I4}
+                                                      className="d-block w-100"
+                                                      alt="..."
+                                                      style={{
+                                                        height: "200px",
+                                                        width: "200px",
+                                                        objectFit: "contain",
+                                                      }}
+                                                    />
+                                                  </div>
+                                                </div>
+                                                <button
+                                                  className="carousel-control-prev"
+                                                  type="button"
+                                                  data-bs-target="#carouselExampleCaptions2"
+                                                  data-bs-slide="prev"
+                                                >
+                                                  <span
+                                                    className="carousel-control-prev-icon"
+                                                    aria-hidden="true"
+                                                  ></span>
+                                                  <span className="visually-hidden">
+                                                    Previous
+                                                  </span>
+                                                </button>
+                                                <button
+                                                  className="carousel-control-next"
+                                                  type="button"
+                                                  data-bs-target="#carouselExampleCaptions2"
+                                                  data-bs-slide="next"
+                                                >
+                                                  <span
+                                                    className="carousel-control-next-icon"
+                                                    aria-hidden="true"
+                                                  ></span>
+                                                  <span className="visually-hidden">
+                                                    Next
+                                                  </span>
+                                                </button>
+                                              </div>
+                                              {/* modal body carousel ends here */}
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
                                   <br></br>
@@ -1600,7 +1767,7 @@ const Project = () => {
               </div>
             </div>
 
-            {/* More Projects Coming Soon */}
+            {/*--------------------------------------------- More Projects Coming Soon------------------------------- */}
             <div className="col container bg-transparent rounded-3">
               <div className="card projectCard">
                 <img

@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact-page my-auto">
-        <div className="row mx-auto container contact">
+        <div className="row container contact">
           <h1 className="text-center bg-transparent">
             I'd love to hear from you.
           </h1>
