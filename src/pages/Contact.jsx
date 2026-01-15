@@ -28,13 +28,12 @@ const Contact = () => {
   return (
     <>
       <div className="contact-page my-auto">
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="row mx-5 mx-auto contact">
-          <h1 className="text-center">I'd love to hear from you.</h1>
-          <div className="col-sm-12 col-md-6 info container p-3">
+        <div className="row mx-auto container contact">
+          <h1 className="text-center bg-transparent">
+            I'd love to hear from you.
+          </h1>
+          {/* contact information */}
+          <div className="col-sm-12 col-md-5 info container g-3 p-5 rounded-3">
             <h5 className="text-center">
               Drop me a message and let's have a little chat.
             </h5>
@@ -58,7 +57,9 @@ const Contact = () => {
               <span>Fairview Quezon City PH</span>
             </li>
           </div>
-          <div className="col-sm-12 col-md-6 mb-3">
+
+          {/* contact form */}
+          <div className="col-sm-12 col-md-6 rounded-3 g-3 container p-5">
             <form
               className="contactForm  p-1 mx-auto"
               ref={form}
