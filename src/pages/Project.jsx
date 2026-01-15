@@ -34,18 +34,24 @@ import quote from "../assets/miniProjects/QuoteGen.jpg";
 import quiz from "../assets/miniProjects/QuizApp.jpg";
 import tictactoe from "../assets/miniProjects/tictactoePic.jpg";
 import keyframes from "../assets/miniProjects/Keyframes.jpg";
+import { buildProjectionTransform } from "framer-motion";
 
 const Project = () => {
   return (
     <>
       <div className="container-fluid mainContainer py-3">
-        <h1 className="text-center pt-5">Project Gallery</h1>
-        <div className="container-fluid">
-          <div className="row row-cols-1 row-cols-sm-12 row-cols-md-2 row-cols-lg-4 row-gap-3 mx-auto my-5">
+        <h1 className="text-center container bg-transparent rounded-3">
+          Project Gallery
+        </h1>
+        <div className="container-fluid projectBox my-auto px-auto">
+          <div className="container row row-cols-1 row-cols-sm-12 row-cols-md-2 row-cols-lg-4 row-gap-3 mx-auto my-5 bg-transparent">
             {/* first card my portfolio */}
-            <div className="col ">
-              <div className="card">
-                <iframe src="https://lottie.host/?file=8e2943dd-a32c-4838-b510-aaaf11961a77/K8d6b0oFjs.json"></iframe>
+            <div className="col container bg-transparent rounded-3">
+              <div className="card projectCard">
+                <iframe
+                  src="https://lottie.host/?file=8e2943dd-a32c-4838-b510-aaaf11961a77/K8d6b0oFjs.json"
+                  style={{ width: "100%", objectFit: "cover" }}
+                ></iframe>
 
                 <div className="card-body">
                   <h5 className="card-title">My Portfolio</h5>
@@ -277,12 +283,13 @@ const Project = () => {
             </div>
 
             {/* 2nd card wordpress project */}
-            <div className="col ">
-              <div className="card">
+            <div className="col container bg-transparent rounded-3">
+              <div className="card projectCard">
                 {/* <img src={kodego} className="card-img-top" alt="..." /> */}
                 <iframe
                   className="mt-4"
                   src="https://lottie.host/?file=ed2d0465-6b58-4069-a0eb-53da8356ab75/ukR04csMHY.json"
+                  style={{ width: "100%", objectFit: "cover" }}
                 ></iframe>
                 <div className="card-body">
                   <h5 className="card-title">Wordpress Project</h5>
@@ -797,13 +804,13 @@ const Project = () => {
             </div>
 
             {/* 3rd card kodego capstone project */}
-            <div className="col ">
-              <div className="card">
+            <div className="col container bg-transparent rounded-3">
+              <div className="card projectCard">
                 <img
                   src={kodego}
                   className="card-img-top mx-auto img-fluid rounded-start"
                   alt="..."
-                  style={{ width: "50%", objectFit: "contain" }}
+                  style={{ width: "100%", objectFit: "cover" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Kodego Capstone</h5>
@@ -1099,13 +1106,13 @@ const Project = () => {
             </div>
 
             {/* 4th card kodego mini projects */}
-            <div className="col ">
-              <div className="card">
+            <div className="col container bg-transparent rounded-3">
+              <div className="card projectCard">
                 <img
                   src={kodego}
                   className="card-img-top mx-auto img-fluid rounded-start"
                   alt="..."
-                  style={{ width: "50%", objectFit: "contain" }}
+                  style={{ width: "100%", objectFit: "cover" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Kodego mini projects</h5>
@@ -1139,6 +1146,500 @@ const Project = () => {
                           <h1
                             className="modal-title fs-5"
                             id="staticBackdrop3Label"
+                          >
+                            Compilation
+                          </h1>
+                          <button
+                            type="button"
+                            className="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div className="modal-body">
+                          {/* modal body card section */}
+                          <div className="card mb-3">
+                            <div className="row g-0">
+                              <div className="col-md-4 my-auto">
+                                <img
+                                  src={kodego}
+                                  className="img-fluid rounded-start"
+                                  alt="..."
+                                  style={{ width: "100%" }}
+                                />
+                              </div>
+                              <div className="col-md-8">
+                                <div className="card-body">
+                                  <h5 className="card-title">Mini Projects</h5>
+                                  <div className="card-text">
+                                    <div
+                                      className="accordion"
+                                      id="accordionExample"
+                                    >
+                                      {/* accordion 1  mini project 1*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne"
+                                            aria-expanded="false"
+                                            aria-controls="collapseOne"
+                                          >
+                                            Mini Project 1
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseOne"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <p>
+                                                  This is my
+                                                  <b> Mini Project 1 </b>
+                                                  in Kodego Bootcamp. In this
+                                                  project, I developed an
+                                                  e-commerce website that sells
+                                                  jewelry online, and we were
+                                                  required to develop a system
+                                                  using only HTML, CSS, and
+                                                  Bootstrap for layout and to
+                                                  make it responsive to
+                                                  different screen sizes. No
+                                                  functionalities yet; just
+                                                  static.
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://github.com/DantechJr/MiniProject1"
+                                                    >
+                                                      <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://dantechjr.github.io/MiniProject1/"
+                                                    >
+                                                      <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                </p>
+                                              </div>
+                                              <div className="col-12 ">
+                                                <img
+                                                  src={alahas}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 2 tictactoe*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo"
+                                          >
+                                            TicTacToe
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseTwo"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <b>Tictactoe </b>
+                                                is a mini game developed using
+                                                HTML, CSS, and Javascript. This
+                                                activity in the bootcamp
+                                                measures and practices our
+                                                capabilities in logic since this
+                                                app is more into logic
+                                                functionalities.
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/DantechJr/TicTacToe"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://dantechjr.github.io/TicTacToe/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              <div className="col-12">
+                                                <img
+                                                  src={tictactoe}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 3 quote generator*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="collapseThree"
+                                          >
+                                            Quote Generator
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapseThree"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <p>
+                                                  <b>Quote Generator </b>
+                                                  <span>
+                                                    is an activity that
+                                                    generates random quotes that
+                                                    are being retrieved from an
+                                                    external API. It was
+                                                    developed using HTML, CSS,
+                                                    JavaScript, Bootstrap, and
+                                                    ReactJs.
+                                                  </span>
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://github.com/DantechJr/QuoteGenerator"
+                                                    >
+                                                      <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                  <span>
+                                                    <Link
+                                                      className="text-body-secondary"
+                                                      to="https://quote-generator-seven-zeta.vercel.app/"
+                                                    >
+                                                      <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                    </Link>
+                                                  </span>
+                                                </p>
+                                              </div>
+                                              <div className="col-12">
+                                                <img
+                                                  src={quote}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 4 rock paper scissors*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapsefour"
+                                            aria-expanded="false"
+                                            aria-controls="collapsefour"
+                                          >
+                                            Rock Paper Scissors
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapsefour"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <b>Rock, Paper, Scissors </b>
+                                            is a fun minigame to play. whether
+                                            you want to play solo with the
+                                            computer or play with your friends
+                                            in player vs. player mode. This game
+                                            was developed using HTML, CSS, and
+                                            Javascript since logic and functions
+                                            are very much needed in this
+                                            project.
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
+                                            <span>
+                                              <Link
+                                                className="text-body-secondary"
+                                                to="#"
+                                              >
+                                                <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                              </Link>
+                                            </span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 5 quiz app*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapsefive"
+                                            aria-expanded="false"
+                                            aria-controls="collapsefive"
+                                          >
+                                            Quiz App
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapsefive"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                <b>The Quiz app</b> is a form of
+                                                question with multiple answers
+                                                to choose from. A green color
+                                                will appear if you pick the
+                                                right answer and a red color if
+                                                it's wrong. There are only 10
+                                                questions, and after all is
+                                                done, the total score will
+                                                display, and you have the option
+                                                to try again. This project is
+                                                developed using HTML, CSS, and
+                                                Javascript.
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/DantechJr/Quiz-App"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://dantechjr.github.io/Quiz-App/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              <div className="col">
+                                                <img
+                                                  src={quiz}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      {/* accordion 6 css key frames*/}
+                                      <div className="accordion-item">
+                                        <h2 className="accordion-header">
+                                          <button
+                                            className="accordion-button collapsed"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapsesix"
+                                            aria-expanded="false"
+                                            aria-controls="collapsesix"
+                                          >
+                                            CSS Key Frames
+                                          </button>
+                                        </h2>
+                                        <div
+                                          id="collapsesix"
+                                          className="accordion-collapse collapse"
+                                          data-bs-parent="#accordionExample"
+                                        >
+                                          <div className="accordion-body">
+                                            <div className="row">
+                                              <div className="col-12">
+                                                The<b> CSS Keyframes </b>
+                                                Activity is a challenge wherein
+                                                we must duplicate the sample
+                                                video Kodego provides. All of
+                                                the elements in that video are
+                                                moving differently, one after
+                                                another. Only HTML and CSS are
+                                                used in this activity's
+                                                keyframes for the animation of
+                                                the elements.
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://github.com/DantechJr/CSS-Keyframes"
+                                                  >
+                                                    <i className="fa-brands fa-github fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                                <span>
+                                                  <Link
+                                                    className="text-body-secondary"
+                                                    to="https://dantechjr.github.io/CSS-Keyframes/"
+                                                  >
+                                                    <i className="fa-regular fa-circle-play fa-bounce mx-3 "></i>
+                                                  </Link>
+                                                </span>
+                                              </div>
+                                              <div className="col-12">
+                                                <img
+                                                  src={keyframes}
+                                                  alt=""
+                                                  style={{
+                                                    objectFit: "contain",
+                                                    height: "100%",
+                                                    width: "100%",
+                                                  }}
+                                                />
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <br></br>
+                                  <b>Technologies used:</b>&nbsp;
+                                  <span>
+                                    <i className="fa-brands fa-html5 mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-css3-alt mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-square-js mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-bootstrap mx-1"></i>
+                                  </span>
+                                  <span>
+                                    <i className="fa-brands fa-react mx-1"></i>
+                                  </span>
+                                  <div className="card-text d-flex flex-wrap justify-content-between  align-items-center py-1 my-1 border-top">
+                                    <div className="col-md-8 d-flex align-items-center">
+                                      <small className=" mb-md-0 text-body-secondary">
+                                        Feel free to check the live demo and
+                                        code provided inside the accordion
+                                        dropdown.
+                                      </small>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-outline-dark"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* More Projects Coming Soon */}
+            <div className="col container bg-transparent rounded-3">
+              <div className="card projectCard">
+                <img
+                  src={sample}
+                  className="card-img-top mx-auto img-fluid rounded-start"
+                  alt="..."
+                  style={{ width: "100%", objectFit: "cover" }}
+                />
+                <div className="card-body  bg-transparent">
+                  <h5 className="card-title">More Projects Coming Soon</h5>
+                  <p className="card-text">
+                    I'm continuously working on new projects to showcase my
+                    skills and creativity. Stay tuned for more exciting updates!
+                  </p>
+                  {/* <!-- Button trigger modal --> */}
+                  <button
+                    type="button"
+                    className="btn btn-outline-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop4"
+                  >
+                    Details
+                  </button>
+                  {/* <!-- Modal --> */}
+                  <div
+                    className="modal fade"
+                    id="staticBackdrop4"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabIndex="-1"
+                    aria-labelledby="staticBackdrop4Label"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog modal-dialog-centered modal-lg">
+                      <div className="modal-content">
+                        <div className="modal-header">
+                          <h1
+                            className="modal-title fs-5"
+                            id="staticBackdrop4Label"
                           >
                             Compilation
                           </h1>

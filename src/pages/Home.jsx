@@ -9,19 +9,21 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="my-5 Home-page">
+      <div className="Home-page">
         <h1
-          className="text-center"
+          className="text-center container"
           style={{
             fontFamily: "cursive",
+            color: "#343a40",
           }}
         >
           Hi there welcome to my Portfolio!
         </h1>
+        <Hero />
       </div>
-      <Hero />
+
       {/* home about section */}
-      <div className="home-about">
+      {/* <div className="home-about">
         <br />
         <br />
         <div className="card home-card mx-auto text-center w-75 ">
@@ -46,9 +48,9 @@ const Home = () => {
         </div>
         <br />
         <br />
-      </div>
+      </div> */}
       {/* home project section */}
-      <div className="home-project text-center">
+      {/* <div className="home-project text-center">
         <br />
         <br />
         <div className="card home-project-card w-75 mx-auto">
@@ -71,9 +73,9 @@ const Home = () => {
         </div>
         <br />
         <br />
-      </div>
+      </div> */}
       {/* home contact section  */}
-      <div className="home-contact text-center">
+      {/* <div className="home-contact text-center">
         <br />
         <br />
         <div className="card mx-auto home-contact-card w-75">
@@ -96,9 +98,7 @@ const Home = () => {
         </div>
         <br />
         <br />
-      </div>
-      <br />
-      <br />
+      </div> */}
     </>
   );
 };

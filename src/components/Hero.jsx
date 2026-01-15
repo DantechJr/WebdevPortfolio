@@ -16,20 +16,17 @@ const Hero = () => {
               />
             </div>
             <div className="col-md-8">
-              <div className="card-body my-5">
-                <h5 className="card-title">Junior Web Developer</h5>
+              <div className="card-body my-5 fs-5">
+                <h4 className="card-title">Information Technology Graduate</h4>
                 <p className="card-text">
-                  I am <strong>Dante Alcantara Jr</strong>, a highly motivated
-                  and enthusiastic entry-level web developer with a strong
-                  passion for creating interactive and user-friendly websites.
-                  Equipped with the fundamentals of web development
-                  technologies, including<strong> HTML</strong>,
-                  <strong>CSS</strong>, and
-                  <strong> JavaScript</strong>. A quick learner with a strong
-                  attention to detail and a commitment to producing clean,
-                  well-structured code. Seeking an opportunity to contribute to
-                  web development projects and grow in a supportive and
-                  challenging environment
+                  Recent BS Information Technology graduate with hands-on
+                  experience building real-world web applications through
+                  academic, bootcamp, and capstone projects. Skilled in
+                  front-end development and foundational backend technologies,
+                  with experience deploying projects using modern tools. Highly
+                  trainable, adaptable, and eager to contribute to system
+                  development, application support, and continuous learning in a
+                  professional IT environment.
                 </p>
               </div>
             </div>

@@ -7,8 +7,8 @@ const Footer = () => {
     <>
       <footer className="fixed-bottom">
         <div className="row p-3 d-flex  justify-content-between mx-auto">
-          <div className="col-sm-12 col-md-6" style={{ width: "200px" }}>
-            <small>&copy; 2023 Dante.Alcantara.Jr™</small>
+          <div className="col-sm-12 col-md-6" style={{ width: "300px" }}>
+            <small>&copy; 2023-2026 Dante.Alcantara.Jr™</small>
           </div>
           <div
             className="col-sm-12 col-md-6 justify-content-end social-icon d-flex"

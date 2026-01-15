@@ -2,19 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import Dog from "../assets/dog.gif";
-import Resume from "../assets/Dante(Resume).pdf";
+import Resume1 from "../assets/Dante(Resume2026).pdf";
 
 export const Navbar = () => {
   return (
     <>
-      <nav className="navbar sticky-top navbar-expand-lg bg-body-transparent">
+      <nav className="navbar sticky-top navbar-expand-lg bg-body-transparent px-3">
         <div className="container-fluid">
-          <span>
-            <img src={Dog} alt="dog hello" className="mx-2" />
-          </span>
-          <Link className="navbar-brand" to="/">
-            <strong> DANTE</strong>
+          {/* Logo */}
+          <Link className="navbar-brand d-flex align-items-center" to="/">
+            <img src={Dog} alt="dog hello" style={{ width: "40px" }} />
+            <strong className="ms-2">DANTE</strong>
           </Link>
+
+          {/* Toggler */}
           <button
             className="navbar-toggler"
             type="button"
@@ -26,10 +27,15 @@ export const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
+
+          {/* Collapsible Menu */}
+          <div
+            className="collapse navbar-collapse text-center"
+            id="navbarNavDropdown"
+          >
+            <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-3">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link active" to="/">
                   Home
                 </Link>
               </li>
@@ -44,18 +50,20 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="Contact">
+                <Link className="nav-link" to="/Contact">
                   Contact
                 </Link>
               </li>
-              <a
-                href={Resume}
-                className="btn btn-outline-dark"
-                style={{ width: "150px" }}
-                download="Resume"
-              >
-                Download CV
-              </a>
+
+              <li className="nav-item">
+                <a
+                  href={Resume1}
+                  className="btn btn-outline-dark"
+                  download="Resume"
+                >
+                  Download CV
+                </a>
+              </li>
             </ul>
           </div>
         </div>

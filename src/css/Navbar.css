@@ -4,5 +4,53 @@ nav {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
- 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  color: #343a40 !important;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  color: #6c757d !important;
+  font-weight: 600;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #343a40 !important;
+}
+.navbar-brand:hover {
+  color: #6c757d !important;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav .nav-item:first-child {
+  margin-left: 0;
+}
+.navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+.navbar-nav .nav-item {
+  margin: 0.5rem 0;
 }
