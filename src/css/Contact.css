@@ -10,6 +10,7 @@
   background-position: center;
   background-attachment: fixed;
   height: 100%;
+  padding-top: 50px;
 }
 
 .info {
@@ -17,7 +18,8 @@
 }
 
 .contact {
-  width: 95%;
+  width: 100%;
+  margin: auto;
   padding: 50px;
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
