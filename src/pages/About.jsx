@@ -43,19 +43,22 @@ const About = () => {
         {/* college */}
         <div className="container-fluid college border">
           <div className="row first p-4 m-4" style={{ borderRadius: "10px" }}>
-            <div className="col-sm-12  img-fluid col-md-4">
+            <div
+              className="col-sm-12  img-fluid col-md-4 boxBorderR"
+              style={{ borderRadius: "10px 0 0 10px" }}
+            >
               <img
                 src={Gradpic}
                 alt="my grad pic"
                 className="gradpic"
-                style={{ borderRadius: "10px" }}
+                style={{ borderRadius: "10px", width: "97%", height: "97%" }}
               />
             </div>
 
             <div className="col-sm-12 col-md-8">
               <div className="row">
-                <div className="col-12">
-                  <h1 className="text-center my-3">Access Computer College</h1>
+                <div className="col-12 my-3">
+                  <h1 className="text-center ">Access Computer College</h1>
                 </div>
                 <div className="col-12"></div>
                 <section>
