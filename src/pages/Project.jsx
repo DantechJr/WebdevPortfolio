@@ -45,11 +45,20 @@ import { buildProjectionTransform } from "framer-motion";
 const Project = () => {
   return (
     <>
-      <div className="container-fluid mainContainer pb-5">
-        <h1 className="text-center container bg-transparent py-5 rounded-3">
-          Project Gallery
-        </h1>
-        <div className="container-fluid projectBox my-auto px-auto">
+      <div className=" mainContainer pb-5">
+        <div className="row text-center projectBox container-fluid mb-5 mx-auto rounded-0">
+          <div className="col-lg-6 col-md-8 mx-auto">
+            <h1>Project Gallery</h1>
+            <p className="lead text-body-secondary">
+              A gallery of projects serves as a visual timeline of my
+              professional and personal growth. To showcase my achievements from{" "}
+              <b>College</b> , <b>Bootcamp</b> and <b>Specialized Training</b> ,
+              this page demonstrates a continuous commitment to mastering new
+              skills.
+            </p>
+          </div>
+        </div>
+        <div className="container-fluid projectBox my-3 mx-2 rounded-5">
           <div className="container row row-cols-1 row-cols-sm-12 row-cols-md-2 row-cols-lg-4 row-gap-3 mx-auto my-5 bg-transparent">
             {/*--------------------------------------- first card my portfolio------------------------------------------------ */}
             <div className="col container bg-transparent rounded-3">
@@ -85,7 +94,7 @@ const Project = () => {
                     aria-labelledby="staticBackdropLabel"
                     aria-hidden="true"
                   >
-                    <div className="modal-dialog modal-dialog-centered modal-lg">
+                    <div className="modal-dialog modal-fullscreen modal-lg">
                       <div className="modal-content">
                         <div className="modal-header">
                           <h1

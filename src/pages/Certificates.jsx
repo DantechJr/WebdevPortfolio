@@ -6,14 +6,15 @@ const Certificates = () => {
     <>
       <div className="certificate ">
         <main>
-          <div className="row text-center container-fluid py-lg-5">
+          <div className="row text-center container-fluid py-lg-5 certBox mx-auto rounded-0">
             <div className="col-lg-6 col-md-8 mx-auto">
-              <h1 className="fw-light">Certificate Gallery</h1>
+              <h1>Certificate Gallery</h1>
               <p className="lead text-body-secondary">
                 A gallery of certificates serves as a visual timeline of my
                 professional and personal growth. To showcase my achievements
-                from college bootcamp and specialized training, this page
-                demonstrates a continuous commitment to mastering new skills.
+                from <b>College</b> , <b>Bootcamp</b> and{" "}
+                <b>Specialized Training</b> , this page demonstrates a
+                continuous commitment to mastering new skills.
               </p>
             </div>
           </div>
@@ -21,7 +22,7 @@ const Certificates = () => {
           <div className="album py-5">
             <div className="container">
               <h1 className="py-3">College Diploma and Certificates</h1>
-              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
+              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5 certBox">
                 {/* college diploma */}
                 <div className="col">
                   <div className="card shadow-sm">
@@ -120,7 +121,7 @@ const Certificates = () => {
                 </div>
               </div>
               <h1 className="py-3">Udemy and Coursera Certificates</h1>
-              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
+              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5 certBox">
                 {/* Udemy SDLC */}
                 <div className="col">
                   <div className="card shadow-sm">
@@ -571,7 +572,7 @@ const Certificates = () => {
                 </div>
               </div>
               <h1 className="py-3">Skills to Succeed Academy</h1>
-              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
+              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5 certBox">
                 {/* skills to succeed certificate */}
                 <div className="col">
                   <div className="card shadow-sm">
