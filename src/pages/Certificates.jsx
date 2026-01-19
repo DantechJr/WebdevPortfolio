@@ -15,6 +15,8 @@ import g5 from "../assets/nht/Certificates/G5.jpg";
 import g6 from "../assets/nht/Certificates/G6.jpg";
 import g7 from "../assets/nht/Certificates/G7.jpg";
 import g8 from "../assets/nht/Certificates/G8.jpg";
+import S2s from "../assets/nht/Certificates/s2s.jpg";
+import S2smodule from "../assets/nht/Certificates/s2sModule.jpg";
 
 const Certificates = () => {
   return (
@@ -185,7 +187,7 @@ const Certificates = () => {
                       </p>
                       <div className="d-flex justify-content-between align-items-center">
                         <strong className="text-body-secondary">
-                          Udemy Power BI
+                          Udemy Power BI Desktop
                         </strong>
                       </div>
                     </div>
@@ -281,6 +283,24 @@ const Certificates = () => {
                     </div>
                   </div>
                 </div>
+                {/* Coursera Introduction AI */}
+                <div className="col">
+                  <div className="card shadow-sm">
+                    <img src={g6} alt="" height={225} />
+                    <div className="card-body">
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <div className="d-flex justify-content-between align-items-center">
+                        <strong className="text-body-secondary">
+                          Coursera Introduction AI
+                        </strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 {/* Coursera Cybersecurity */}
                 <div className="col">
                   <div className="card shadow-sm">
@@ -356,7 +376,7 @@ const Certificates = () => {
                 {/* Coursera Project Management */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={Gg} alt="" height={225} />
+                    <img src={g2} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -395,21 +415,7 @@ const Certificates = () => {
                 {/* skills to succeed certificate */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <svg
-                      aria-label="Placeholder: Thumbnail"
-                      className="bd-placeholder-img card-img-top"
-                      height="225"
-                      preserveAspectRatio="xMidYMid slice"
-                      role="img"
-                      width="100%"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <title>Placeholder</title>
-                      <rect width="100%" height="100%" fill="#55595c"></rect>
-                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                        Thumbnail
-                      </text>
-                    </svg>
+                    <img src={S2s} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -427,21 +433,7 @@ const Certificates = () => {
                 {/* completed module */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <svg
-                      aria-label="Placeholder: Thumbnail"
-                      className="bd-placeholder-img card-img-top"
-                      height="225"
-                      preserveAspectRatio="xMidYMid slice"
-                      role="img"
-                      width="100%"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <title>Placeholder</title>
-                      <rect width="100%" height="100%" fill="#55595c"></rect>
-                      <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                        Thumbnail
-                      </text>
-                    </svg>
+                    <img src={S2smodule} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
