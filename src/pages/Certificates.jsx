@@ -1,4 +1,5 @@
 import "../css/Certificates.css";
+import { Link } from "react-router-dom";
 import U1 from "../assets/nht/Certificates/U1.jpg";
 import U2 from "../assets/nht/Certificates/U2.jpg";
 import U3 from "../assets/nht/Certificates/U3.jpg";
