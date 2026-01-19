@@ -1,20 +1,20 @@
 import "../css/Certificates.css";
 import { Link } from "react-router-dom";
-import U1 from "../assets/nht/Certificates/U1.jpg";
-import U2 from "../assets/nht/Certificates/U2.jpg";
-import U3 from "../assets/nht/Certificates/U3.jpg";
-import U4 from "../assets/nht/Certificates/U4.jpg";
-import U5 from "../assets/nht/Certificates/U5.jpg";
-import U6 from "../assets/nht/Certificates/U6.jpg";
-import U7 from "../assets/nht/Certificates/U7.jpg";
-import G1 from "../assets/nht/Certificates/G1.jpg";
-import G2 from "../assets/nht/Certificates/G2.jpg";
-import G3 from "../assets/nht/Certificates/G3.jpg";
-import G4 from "../assets/nht/Certificates/G4.jpg";
-import G5 from "../assets/nht/Certificates/G5.jpg";
-import G6 from "../assets/nht/Certificates/G6.jpg";
-import G7 from "../assets/nht/Certificates/G7.jpg";
-import G8 from "../assets/nht/Certificates/G8.jpg";
+import u1 from "../assets/nht/Certificates/U1.jpg";
+import u2 from "../assets/nht/Certificates/U2.jpg";
+import u3 from "../assets/nht/Certificates/U3.jpg";
+import u4 from "../assets/nht/Certificates/U4.jpg";
+import u5 from "../assets/nht/Certificates/U5.jpg";
+import u6 from "../assets/nht/Certificates/U6.jpg";
+import u7 from "../assets/nht/Certificates/U7.jpg";
+import g1 from "../assets/nht/Certificates/G1.jpg";
+import g2 from "../assets/nht/Certificates/G2.jpg";
+import g3 from "../assets/nht/Certificates/G3.jpg";
+import g4 from "../assets/nht/Certificates/G4.jpg";
+import g5 from "../assets/nht/Certificates/G5.jpg";
+import g6 from "../assets/nht/Certificates/G6.jpg";
+import g7 from "../assets/nht/Certificates/G7.jpg";
+import g8 from "../assets/nht/Certificates/G8.jpg";
 
 const Certificates = () => {
   return (
@@ -140,7 +140,7 @@ const Certificates = () => {
                 {/* Udemy SDLC */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U3} alt="" height={225} />
+                    <img src={u3} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -158,7 +158,7 @@ const Certificates = () => {
                 {/* Udemy SQL */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U2} alt="" height={225} />
+                    <img src={u2} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -176,7 +176,7 @@ const Certificates = () => {
                 {/* Udemy Power BI Desktop*/}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U6} alt="" height={225} />
+                    <img src={u6} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -194,7 +194,7 @@ const Certificates = () => {
                 {/* Udemy Power BI UI/UX */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U5} alt="" height={225} />
+                    <img src={u5} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -212,7 +212,7 @@ const Certificates = () => {
                 {/* Udemy Python */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U4} alt="" height={225} />
+                    <img src={u4} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -230,7 +230,7 @@ const Certificates = () => {
                 {/* Udemy Generative AI */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U1} alt="" height={225} />
+                    <img src={u1} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -248,7 +248,7 @@ const Certificates = () => {
                 {/* Udemy Chat GPT */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={U7} alt="" height={225} />
+                    <img src={u7} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -266,7 +266,7 @@ const Certificates = () => {
                 {/* Coursera AI Essentials */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G7} alt="" height={225} />
+                    <img src={g7} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -284,7 +284,7 @@ const Certificates = () => {
                 {/* Coursera Cybersecurity */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G3} alt="" height={225} />
+                    <img src={g3} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -302,7 +302,7 @@ const Certificates = () => {
                 {/* Coursera IT Support */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G8} alt="" height={225} />
+                    <img src={g8} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -320,7 +320,7 @@ const Certificates = () => {
                 {/* Coursera Data Analytics */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G1} alt="" height={225} />
+                    <img src={g1} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -338,7 +338,7 @@ const Certificates = () => {
                 {/* Coursera Digital Marketing & E-commerce */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G4} alt="" height={225} />
+                    <img src={g4} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -356,7 +356,7 @@ const Certificates = () => {
                 {/* Coursera Project Management */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G2} alt="" height={225} />
+                    <img src={Gg} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -374,7 +374,7 @@ const Certificates = () => {
                 {/* Coursera User Experience UX Design */}
                 <div className="col">
                   <div className="card shadow-sm">
-                    <img src={G5} alt="" height={225} />
+                    <img src={g5} alt="" height={225} />
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
