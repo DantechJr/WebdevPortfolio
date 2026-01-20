@@ -1,22 +1,23 @@
 import "../css/Certificates.css";
 import { Link } from "react-router-dom";
-import u1 from "../assets../nht/Certificates/U1.jpg";
-import u2 from "../assets../nht/Certificates/U2.jpg";
-import u3 from "../assets../nht/Certificates/U3.jpg";
-import u4 from "../assets../nht/Certificates/U4.jpg";
-import u5 from "../assets../nht/Certificates/U5.jpg";
-import u6 from "../assets../nht/Certificates/U6.jpg";
-import u7 from "../assets../nht/Certificates/U7.jpg";
-import g1 from "../assets../nht/Certificates/G1.jpg";
-import g2 from "../assets../nht/Certificates/G2.jpg";
-import g3 from "../assets../nht/Certificates/G3.jpg";
-import g4 from "../assets../nht/Certificates/G4.jpg";
-import g5 from "../assets../nht/Certificates/G5.jpg";
-import g6 from "../assets../nht/Certificates/G6.jpg";
-import g7 from "../assets../nht/Certificates/G7.jpg";
-import g8 from "../assets../nht/Certificates/G8.jpg";
-import S2s from "../assets../nht/Certificates/s2s.jpg";
-import S2smodule from "../assets../nht/Certificates/s2sModule.jpg";
+// import u1 from "../assets/nht/Certificates/U1.jpg";
+import u1 from "../assets/nht/U1.jpg";
+import u2 from "../assets/nht/U2.jpg";
+import u3 from "../assets/nht/U3.jpg";
+import u4 from "../assets/nht/U4.jpg";
+import u5 from "../assets/nht/U5.jpg";
+import u6 from "../assets/nht/U6.jpg";
+import u7 from "../assets/nht/U7.jpg";
+import g1 from "../assets/nht/G1.jpg";
+import g2 from "../assets/nht/G2.jpg";
+import g3 from "../assets/nht/G3.jpg";
+import g4 from "../assets/nht/G4.jpg";
+import g5 from "../assets/nht/G5.jpg";
+import g6 from "../assets/nht/G6.jpg";
+import g7 from "../assets/nht/G7.jpg";
+import g8 from "../assets/nht/G8.jpg";
+import S2s from "../assets/nht/s2s.jpg";
+import S2smodule from "../assets/nht/s2sModule.jpg";
 
 const Certificates = () => {
   return (

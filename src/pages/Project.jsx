@@ -40,7 +40,6 @@ import kb1 from "../assets/nht/KB1.jpg";
 import kb2 from "../assets/nht/KB2.jpg";
 import kb3 from "../assets/nht/KB3.jpg";
 import kb4 from "../assets/nht/KB4.jpg";
-import { buildProjectionTransform } from "framer-motion";
 
 const Project = () => {
   return (
