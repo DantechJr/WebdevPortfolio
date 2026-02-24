@@ -1,6 +1,5 @@
 import "../css/Certificates.css";
 import { Link } from "react-router-dom";
-// import u1 from "../assets/nht/Certificates/U1.jpg";
 import u1 from "../assets/nht/U1.jpg";
 import u2 from "../assets/nht/U2.jpg";
 import u3 from "../assets/nht/U3.jpg";
@@ -141,9 +140,10 @@ const Certificates = () => {
               <h1 className="py-3">Udemy and Coursera Certificates</h1>
               <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5 certBox">
                 {/* Udemy SDLC */}
-                <div className="col">
+                {/* <div className="col">
                   <div className="card shadow-sm">
                     <img src={u3} alt="" height={225} />
+
                     <div className="card-body">
                       <p className="card-text">
                         This is a wider card with supporting text below as a
@@ -157,7 +157,44 @@ const Certificates = () => {
                       </div>
                     </div>
                   </div>
+                </div> */}
+                <div className="col">
+                  <div className="card shadow-sm">
+                    <img
+                      src={u3}
+                      height={225}
+                      width={380}
+                      className="img-fluid zoom-image"
+                      style={{ cursor: "pointer" }}
+                      data-bs-toggle="modal"
+                      data-bs-target="#imageModal"
+                      alt="Udemy SDLC Certificate"
+                      onClick={() =>
+                        document
+                          .getElementById("imageModal")
+                          ?.querySelector('[data-bs-dismiss="modal"]')
+                          ?.click()
+                      }
+                    />
+
+                    <div className="card-body">
+                      <p className="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                      <strong className="text-body-secondary">
+                        Udemy SDLC
+                      </strong>
+                    </div>
+                  </div>
+                  <div
+                    className="modal zoom-modal"
+                    id="imageModal"
+                    tabIndex="-1"
+                    aria-hidden="true"
+                  ></div>
                 </div>
+
                 {/* Udemy SQL */}
                 <div className="col">
                   <div className="card shadow-sm">
@@ -453,6 +490,33 @@ const Certificates = () => {
             </div>
           </div>
         </main>
+      </div>
+      {/* image modal zoom */}
+      <div
+        className="modal zoom-modal"
+        id="imageModal"
+        tabIndex="-1"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered modal-xl">
+          <div className="modal-content bg-transparent border-0">
+            <button
+              type="button"
+              className="btn-close btn-close-white position-absolute top-0 end-0 m-4"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              style={{ zIndex: 1056 }}
+            ></button>
+
+            <div className="modal-body d-flex justify-content-center align-items-center">
+              <img
+                src={u3}
+                className="img-fluid zoom-image"
+                alt="Zoomed certificate"
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

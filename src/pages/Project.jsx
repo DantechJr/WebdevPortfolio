@@ -1,4 +1,5 @@
 import React from "react";
+import face from "../assets/avatar.gif";
 import sample from "../assets/sample.jpg";
 import Phome from "../assets/portfolio/P1.jpg";
 import Pabout from "../assets/portfolio/P2.jpg";
@@ -1779,7 +1780,7 @@ const Project = () => {
             <div className="col container bg-transparent rounded-3">
               <div className="card projectCard">
                 <img
-                  src={sample}
+                  src={face}
                   className="card-img-top mx-auto img-fluid rounded-start"
                   alt="..."
                   style={{ width: "100%", objectFit: "cover" }}

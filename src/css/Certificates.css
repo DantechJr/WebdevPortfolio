@@ -27,3 +27,30 @@
   border-radius: 10px;
   padding: 50px;
 }
+
+.zoom-modal .modal-dialog {
+  transform: scale(0.85);
+  transition: transform 0.3s ease;
+}
+
+.zoom-modal.show .modal-dialog {
+  transform: scale(1);
+}
+
+/* Ensure image is NOT gray */
+.zoom-image {
+  max-height: 90vh;
+  width: auto;
+  border-radius: 12px;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
